@@ -1,0 +1,17 @@
+h1, h2{
+    color: rgb(235, 30, 30);
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    /*text-align: center;*/
+}
+
+.yellow-bg{
+    background-color: rgb(249, 249, 30);
+
+    padding: 30px;
+}
+
+.burger-everythingimg{
+    float: right;
+}
