@@ -15,7 +15,34 @@ h1, h2{
     padding: 30px;
 }
 
-.burger-everythingimg{
-    
-  
+/*first horicontal menu*/
+#nav-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(253, 83, 31);
 }
+
+li{
+    float: left;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: brown;
+}
+
+
+/*.burger-everythingimg{
+  
+}*/
