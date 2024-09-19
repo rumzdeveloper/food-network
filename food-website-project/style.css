@@ -1,3 +1,11 @@
+body{
+    background-image: url(Images/abstract-orange-gradient-vertical-background_7954-20814.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 h1, h2{
     color: rgb(235, 30, 30);
 
@@ -19,7 +27,7 @@ h1, h2{
 #nav-menu{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
     background-color: rgb(253, 83, 31);
 }
@@ -32,14 +40,19 @@ li{
 
 li a{
     display: block;
+
+    font-size: 25px;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 10px;
+
+    padding: 10px 30px 10px;
+    
+
     text-decoration: none;
 }
 
 li a:hover{
-    background-color: brown;
+    background-color: rgb(237, 126, 92);
 }
 
 
