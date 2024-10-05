@@ -1,3 +1,14 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+* {
+    box-sizing: border-box;
+}
+*/
+
 body{
     background-image: url(Images/abstract-orange-gradient-vertical-background_7954-20814.avif);
     background-repeat: no-repeat;
@@ -13,9 +24,22 @@ h1, h2{
     font-size: 50px;
     text-align: center;
 
-    line-height: 20px;
 }
 
+h3, h4{
+    color: rgb(235, 30, 30);
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    color: rgba(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
 
 .yellow-bg{
     background-color: rgb(249, 249, 30);
@@ -56,6 +80,73 @@ li a:hover{
 }
 
 
-/*.burger-everythingimg{
-  
+/*Todays Specials Menu Styling*/
+.display-flex{
+    display: flex;
+}
+
+.display-flex > div{
+    width:30%;
+    margin:20px;
+}
+
+/* DONT NEED this doe to Flex
+div .display{
+    display: flex; justify-content: space-between;
 }*/
+
+div .container{
+    background-color: rgb(255, 255, 255);
+    
+    /*padding: 10px;
+    padding-top: 5px;
+     */
+    margin: 30px;
+
+    border-radius: 7px;
+
+    width: 350px;
+    display: inline-block;
+
+    box-shadow: 0 4px 8px 0 rgb(0,0,0.7), 0 6px 20px 0 rgb(0, 0, 0.19);
+}
+
+
+div .lays-burger{
+    position: relative;
+    right: 200px;
+
+    margin-top: 20px;
+    
+
+    /*box-shadow: 0 4px 8px 0 rgb(0,0,0.7), 0 6px 20px 0 rgb(0, 0, 0.19);
+
+    border-radius: 7px;
+*/
+}
+
+/*
+div .audio1{
+    position: relative;
+    left: 15px;
+    bottom: 5px;
+
+}
+
+
+#audio2{
+    position: relative;
+    left: 20px;
+
+
+    box-shadow: 0 4px 8px 0 rgb(0,0,0.7), 0 6px 20px 0 rgb(0, 0, 0.19);
+
+    border-radius: 7px;
+}
+
+#audio22{
+    position: relative;
+    left: 15px;
+    bottom: 4px;
+}
+*/
