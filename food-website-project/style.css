@@ -117,6 +117,14 @@ div .lays-burger{
 
 }
 
+div .special-loaded-fries{
+    position: relative;
+    left: 60px;
+
+}
+
+
+
 .container > p {
     color: rgb(118, 48, 2);
 
@@ -127,9 +135,9 @@ div .lays-burger{
    
    position: relative;
    bottom:230px;
-    
-
 }
+
+
 .container > h2 {
     font-size: 40px;
     padding: 10px;
@@ -153,9 +161,102 @@ div .lays-burger{
      right: 240px;
      bottom:220px;
 
- padding: 0px;
- margin: 0px;
+ 
 }
+
+/*Full menu Styling*/
+
+.display-flex{
+    display: flex;
+}
+
+.display-flex > div{
+    width: 30%;
+    margin:20px;
+}
+
+
+div .container2 {
+    background-color: rgb(255, 255, 255);
+    
+    /*Dont need because of flex
+    margin: 30px;
+     */
+    
+    border-radius: 7px;
+
+    width: 350px;
+    height: 520px;
+    display: inline-block;
+
+    box-shadow: 0 4px 8px 0 rgb(0,0,0.7), 0 6px 20px 0 rgb(0, 0, 0.19);
+}
+
+
+div .chicburger{
+    position: relative;
+    right: 20px;
+    bottom: 50px;
+    
+}
+
+div .beef-salad-chip{
+    position: relative; 
+    left: 20px; 
+    bottom: 10px;
+}
+
+
+.container2 > p {
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+   padding: 10px;
+   
+   position: relative;
+   bottom:50px;
+    
+
+}
+.container2 > h2 {
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+    
+    }
+
+    .container2 > h3{
+        text-align: end;
+        font-size: 40px;
+    
+        position: relative;
+        bottom:30px;
+        right:110px;
+    }
+
+.container2 > h4{
+    text-align:end;
+    
+    position: relative;
+     right: 240px;
+     bottom:30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 div .audio1{
