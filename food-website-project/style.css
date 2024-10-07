@@ -15,6 +15,8 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+
+    overflow-x: hidden;
 }
 
 h1, h2{
@@ -40,8 +42,216 @@ h3, h4{
     padding: 30px;
 }
 
-/*first horicontal menu*/
+
+
+
+/*first horicontal navigation menu*/
 #nav-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(253, 83, 31);
+
+    margin-bottom: 20px;
+}
+
+li{
+    float: left;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li a{
+    display: block;
+
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    padding: 10px 30px 10px;
+    
+
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(237, 126, 92);
+}
+
+
+
+
+
+/*Todays Specials Menu Styling*/
+
+.background-specials {
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 7px;
+
+    width: 350px;
+    height: 520px;
+    display: inline-block;
+
+    box-shadow: 0 1px 1px 0 rgb(57, 57, 61), 0 2px 5px 0 rgb(57, 57, 61);
+
+}
+
+.display-flex1{
+    display: flex;
+}
+
+.display-flex1 > div{
+    width: 40%;
+    margin:30px;
+
+    margin-top: 50px;
+    margin-bottom: -130px;
+}
+
+
+/*LAYS BEEF BURGER*/
+.lays-burger > h2{
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.lays-burger > img{
+    position: relative;
+    right: 200px;
+    bottom: 100px;
+}
+
+.lays-burger > p {
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding: 10px;
+
+    position: relative;
+    bottom: 230px;
+    left: 10px;
+
+}
+
+.lays-burger > h3{
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom:220px;
+    right:100px;
+}
+
+.lays-burger > h4{
+text-align:end;
+
+position: relative;
+ right: 240px;
+ bottom:220px;
+}
+
+
+/*2 LOADED CHEESE FRIES*/
+.special-loaded-fries > h2{
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+
+.special-loaded-fries > img{
+    position: relative;
+    left: 60px;
+
+}
+
+.special-loaded-fries > p {
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding: 10px;
+
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+
+}
+
+.special-loaded-fries > h3{
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom:10px;
+    right: 100px;
+}
+
+.special-loaded-fries > h4{
+  text-align:end;
+
+  position: relative;
+  right: 240px;
+  bottom: 10px;
+}
+
+/*EPIC MILKSHAKES*/
+
+.epic-shakes > h2 {
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.epic-shakes > img {
+    position: relative;
+    right: 110px;
+    bottom: 30px;
+}
+
+.epic-shakes > p {
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding: 20px;
+
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+}
+
+.epic-shakes > h3 {
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom:90px;
+    right: 100px;
+}
+
+.epic-shakes > h4 {
+    text-align:end;
+
+    position: relative;
+    right: 240px;
+    bottom: 90px;
+  } 
+
+
+
+
+
+/*Full menu Styling*/
+/*Navigation menu for full menu*/
+#food-nav-menu{
     list-style-type: none;
     margin: 0;
     padding: 10px;
@@ -73,7 +283,6 @@ li a:hover{
 }
 
 
-/*Todays Specials Menu Styling*/
 .display-flex{
     display: flex;
 }
@@ -81,115 +290,6 @@ li a:hover{
 .display-flex > div{
     width: 30%;
     margin:20px;
-}
-
-
-
-/* DONT NEED this due to Flex
-div .display{
-    display: flex; justify-content: space-between;
-}*/
-
-
-
-div .container{
-    background-color: rgb(255, 255, 255);
-    
-    /*Dont need because of flex
-    margin: 30px;
-     */
-    
-    border-radius: 7px;
-
-    width: 350px;
-    height: 520px;
-    display: inline-block;
-
-    box-shadow: 0 4px 8px 0 rgb(0,0,0.7), 0 6px 20px 0 rgb(0, 0, 0.19);
-}
-
-
-div .lays-burger{
-    position: relative;
-    right: 200px;
-    bottom: 100px;
-    
-
-}
-
-div .special-loaded-fries{
-    position: relative;
-    left: 60px;
-
-}
-
-
-
-.container > p {
-    color: rgb(118, 48, 2);
-
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-
-   padding: 10px;
-   
-   position: relative;
-   bottom:230px;
-}
-
-
-.container > h2 {
-    font-size: 40px;
-    padding: 10px;
-    padding-bottom: 20px;
-    
-    }
-
-    .container > h3{
-        text-align: end;
-        font-size: 40px;
-    
-        position: relative;
-        bottom:220px;
-        right:100px;
-    }
-
-.container > h4{
-    text-align:end;
-    
-    position: relative;
-     right: 240px;
-     bottom:220px;
-
- 
-}
-
-/*Full menu Styling*/
-
-.display-flex{
-    display: flex;
-}
-
-.display-flex > div{
-    width: 30%;
-    margin:20px;
-}
-
-
-div .container2 {
-    background-color: rgb(255, 255, 255);
-    
-    /*Dont need because of flex
-    margin: 30px;
-     */
-    
-    border-radius: 7px;
-
-    width: 350px;
-    height: 520px;
-    display: inline-block;
-
-    box-shadow: 0 4px 8px 0 rgb(0,0,0.7), 0 6px 20px 0 rgb(0, 0, 0.19);
 }
 
 
