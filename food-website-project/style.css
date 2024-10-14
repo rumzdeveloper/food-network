@@ -419,3 +419,12 @@ li a:hover{
     bottom: 30px;
 }
 
+
+footer {
+    background-color: rgb(255, 17, 17);
+
+    padding: 10px;
+    color: white;
+
+    font-family:Arial, Helvetica, sans-serif;
+}
