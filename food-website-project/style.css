@@ -9,16 +9,18 @@
 }
 
 /*animation1 slide-burger-everythingimg*/
-.container {
+.container{
     overflow: hidden;
-    width: 100%;
+    width: 10%;
 }
 
-.slide-burger-everythingimg {
+.slide-burger-everything{
     position: relative;
     left: 100%;
     animation: slide-in 3s forwards 1;
+
 }
+
 
 @keyframes slide-in {
     from {
@@ -41,8 +43,10 @@
     position: relative;
     left: 500px;
     bottom: 420px;
-}
 
+    margin-bottom: -320px;
+
+}
 
 
 body{
