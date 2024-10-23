@@ -32,11 +32,11 @@
 }
 
 #intro{
-    background-color: rgb(255, 0, 0);
+    background-color: #fded07;
     padding: 10px;
     border-radius: 2px;
 
-    color: rgb(255, 255, 255);
+    color: rgb(250, 21, 21);
     font-size: 40px;
     text-align: left;
 
@@ -60,7 +60,7 @@ body{
 }
 
 h1, h2{
-    color: rgb(235, 30, 30);
+    color: rgb(255, 255, 255);
 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
@@ -69,24 +69,30 @@ h1, h2{
 }
 
 h3, h4{
-    color: rgb(235, 30, 30);
+    color: rgb(255, 255, 255);
 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     text-align: center;
 }
 
-.yellow-bg{
-    background-color: rgb(249, 249, 30);
+.heading-bg{
+    background-color: rgb(249, 117, 30);
 
     padding: 30px;
 }
 
+.background-specials h2, h3, h4{
+    color: rgb(202, 33, 33);
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
 
 
 
-/*first horicontal navigation menu
-#nav-menu{
+/*#nav-menu{
     list-style-type: none;
     margin: 0;
     padding: 10px;
