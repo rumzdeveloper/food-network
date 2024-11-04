@@ -92,16 +92,17 @@ h3, h4{
 
 
 
-/*#nav-menu{
+#nav-menu{
     list-style-type: none;
     margin: 0;
     padding: 10px;
     overflow: hidden;
     background-color: rgb(253, 83, 31);
 
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
-*/
+
 
 
 
@@ -432,6 +433,9 @@ footer {
     box-shadow: 0px 0px 10px 0px #666;
 
     margin: 30px;
+
+    position: relative;
+    left: 100px;
 }
 
 .contact-map{
@@ -450,6 +454,7 @@ footer {
     height: auto;
     flex: 50%;
     padding: 30px;
+
 }
 
 .contact-form h5{
