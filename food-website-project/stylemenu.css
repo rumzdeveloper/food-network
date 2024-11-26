@@ -34,8 +34,18 @@ h3, h4{
     text-align: center;
 }
 
-.heading-bg{
+.heading-bg8{
     background-color: rgb(249, 117, 30);
 
     padding: 30px;
+}
+
+.bg8{
+    background-color: rgb(254, 254, 254);
+
+    padding-top: 20px;
+}
+
+.hdbg8{
+    background-color: rgb(249, 117, 30);
 }
