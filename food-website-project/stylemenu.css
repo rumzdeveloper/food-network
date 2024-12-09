@@ -70,14 +70,91 @@ h3, h4{
 }
 
 .display-flex11 > div img {
-    width: 300px; /* Set a fixed width for each image */
-    height: auto; /* Maintain the image's aspect ratio */
+    /*width: 300px; Set a fixed width for each image */
+    height: auto;  /*Maintain the image's aspect ratio */
     margin: 0; /* Remove any default margin */
+    
     
 }
 
+#burger1{
+    background: #ef8e3e;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: 3px solid #f0ebeb55;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 
-/*beef burger popup*/
+    position: relative;
+    top: 35px;
+    left: 20px;
+
+}
+
+#burger1 > img{
+    position: relative;
+    left: 70px;
+}
+
+#burger2{
+    background: #ecef3e;
+    font-size: 18px;
+    border: 3px solid #f0ebeb55;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    position: relative;
+    left: 10px;
+}
+
+#burger2 > img {
+    position: relative;
+    left: 70px;
+}
+
+#burger3{
+    background: #ef8e3e;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: 3px solid #f0ebeb55;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+    position: relative;
+    top: 50px;
+    left: 20px;
+
+}
+
+#burger3 > img{
+    position: relative;
+    left: 50px;
+}
+
+#burger4{
+        background: #ecef3e;
+        font-size: 18px;
+        border: 3px solid #f0ebeb55;
+        border-radius: 6px;
+        padding: 8px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        position: relative;
+        left: 10px;
+    }
+    
+    #burger2 > img {
+    position: relative;
+    left: 70px;
+    }
+    
+
+/*beef burger popup
 .hover-container {
     position: relative;
     display: inline-block;
@@ -85,13 +162,29 @@ h3, h4{
 }
 
 .hover-container img {
-    width: 300px; /* Set a fixed width for each image */
-    height: auto; /* Maintain the image's aspect ratio */
-    margin: 0; /* Remove any default margin */
+    width: 300px;  Set a fixed width for each image 
+    height: auto;  Maintain the image's aspect ratio 
+    margin: 0; Remove any default margin 
 }
 
 .popup-message {
-    visibility: hidden;
+        display: none; /* Hide the popup by default 
+        width: 250px;
+        background-color: #ef8e3e;
+        color: rgb(56, 23, 1);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        text-align: center;
+        border: 3px solid #f0ebeb55;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 1;
+        top: 10%; /* Position the pop-up below the element 
+        left: 50%; /* Center the pop-up 
+        transform: translateX(-50%);
+}
+    /*display: hidden;
     width: 250px;
     height: 250px;
     background-color: #ef8e3e;
@@ -104,12 +197,12 @@ h3, h4{
     padding: 8px 0;
     position: absolute;
     z-index: 1;
-    top: 2%; /* Position the pop-up above the element */
+    top: 2%; /* Position the pop-up above the element 
     left: 120%;
-    margin-left: -100px; /* Center the pop-up */
+    margin-left: -100px; /* Center the pop-up 
     opacity: 0;
     transition: opacity 0.3s;
-}
+
 
 .hover-container:hover .popup-message {
     visibility: visible;
