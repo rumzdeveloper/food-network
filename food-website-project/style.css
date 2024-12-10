@@ -194,6 +194,7 @@ position: relative;
 .special-loaded-fries > img{
     position: relative;
     left: 60px;
+    transform: rotate(-7deg);
 
 }
 

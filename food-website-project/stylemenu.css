@@ -18,7 +18,7 @@ body{
 }
 
 h1, h2{
-    color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
@@ -27,7 +27,7 @@ h1, h2{
 }
 
 h3, h4{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
@@ -35,7 +35,7 @@ h3, h4{
 }
 
 .heading-bg8{
-    background-color: rgb(250, 21, 21);
+    background-color: rgb(249, 117, 30);
 
     padding: 30px;
     margin-top: 40px;
@@ -43,18 +43,30 @@ h3, h4{
     
 }
 
+.heading-bg8 > h2{
+    font-size: 70px;
+}
+
+.heading-bg8 > p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
 .bg8{
     background-color: rgb(254, 254, 254);
 
     padding-top: 20px;
-    
+    background-image: url(Images/fast-food-A4-removebg-preview.png);
 }
+
 
 .hdbg8{
     background-color: rgb(249, 117, 30);
     padding: 25px;
 
-    font-size: 70px;
+    font-size: 60px;
 
 }
 
@@ -81,6 +93,7 @@ h3, h4{
     background: #ef8e3e;
     color: rgb(255, 255, 255);
     font-size: 18px;
+    text-align: center;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
@@ -88,31 +101,37 @@ h3, h4{
     
 
     position: relative;
-    top: 35px;
+    top: 75px;
     left: 20px;
 
 }
 
 #burger1 > img{
     position: relative;
-    left: 70px;
+    left: 0px;
 }
 
 #burger2{
-    background: #ecef3e;
+    background: #fbff00;
     font-size: 18px;
+    text-align: center;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
     position: relative;
+    top:20px;
     left: 10px;
 }
 
 #burger2 > img {
     position: relative;
-    left: 70px;
+    left: 0px;
+}
+
+#burger2 > h3{
+    color: black;
 }
 
 #burger3{
@@ -126,8 +145,8 @@ h3, h4{
     
 
     position: relative;
-    top: 50px;
-    left: 20px;
+    top: 100px;
+    left: 10px;
 
 }
 
@@ -137,8 +156,9 @@ h3, h4{
 }
 
 #burger4{
-        background: #ecef3e;
+        background: #fbff00;
         font-size: 18px;
+        text-align: center;
         border: 3px solid #f0ebeb55;
         border-radius: 6px;
         padding: 8px;
@@ -146,13 +166,66 @@ h3, h4{
         
         position: relative;
         left: 10px;
+        top: 30px;
     }
     
-    #burger2 > img {
+    #burger4 > img {
     position: relative;
-    left: 70px;
+    right: 0px;
+    }
+
+    #burger4 > h3{
+        color: black;
     }
     
+#burger5{
+    background: #ef8e3e;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    border: 3px solid #f0ebeb55;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+    position: relative;
+    top: 10px;
+    left: 20px;
+
+}
+
+#burger5 > img{
+    position: relative;
+    left: 0px;
+    transform: rotate(5deg);
+}
+
+#burger6{
+    background: #fbff00;
+    font-size: 18px;
+    text-align: center;
+    border: 3px solid #f0ebeb55;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    position: relative;
+    left: 10px;
+    top:30px;
+
+    margin-right: 30px;
+}
+
+#burger6 > img {
+position: relative;
+right: 0px;
+}
+
+#burger6 > h3{
+    color: black;
+}
+
 
 /*beef burger popup
 .hover-container {
