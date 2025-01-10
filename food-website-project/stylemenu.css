@@ -257,7 +257,7 @@ right: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
     position: relative;
-    top:20px;
+    top:50px;
     left: 10px;
 }
 
@@ -271,6 +271,7 @@ right: 0px;
 }
 
 #marg-pizza > ul {
+    list-style: none;
     color: #ffffff;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -301,9 +302,44 @@ right: 0px;
     color: rgb(5, 5, 5);
 }
  
+#mush-pizza > ul {
+    list-style: none;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#mush-pizza > ul, h4 {
+    color: #000000;
+}
 
+#beeef-pizza{
+    background: #d74e20;
+    font-size: 22px;
+    text-align: center;
+    border: 3px solid #f0ebeb55;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    position: relative;
+    top:50px;
+    left: 10px;
+}
+
+#beeef-pizza > img {
+    position: relative;
+    left: 0px;
+}
+
+#beeef-pizza > p {
+    color: rgb(255, 255, 255);
+}
+
+#beeef-pizza > ul {
+    list-style: none;
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
