@@ -121,7 +121,7 @@ h3, h4{
     height: 520px;
     display: inline-block;
 
-    box-shadow: 0 1px 1px 0 rgb(57, 57, 61), 0 2px 5px 0 rgb(57, 57, 61);
+    box-shadow: 0 1px 1px 0 rgb(174, 70, 14), 0 2px 3px 0 rgb(255, 98, 0);
 
 }
 
@@ -171,15 +171,15 @@ h3, h4{
 
     position: relative;
     bottom:220px;
-    right:100px;
+    right:120px;
 }
 
 .lays-burger > h4{
 text-align:end;
 
 position: relative;
- right: 240px;
- bottom:220px;
+ right: 190px;
+ bottom:215px;
 }
 
 
@@ -217,7 +217,7 @@ position: relative;
     font-size: 40px;
 
     position: relative;
-    bottom:10px;
+    bottom:5px;
     right: 100px;
 }
 
@@ -225,8 +225,8 @@ position: relative;
   text-align:end;
 
   position: relative;
-  right: 240px;
-  bottom: 10px;
+  right: 200px;
+  
 }
 
 /*EPIC MILKSHAKES*/
@@ -262,15 +262,15 @@ position: relative;
 
     position: relative;
     bottom:90px;
-    right: 100px;
+    right: 110px;
 }
 
 .epic-shakes > h4 {
     text-align:end;
 
     position: relative;
-    right: 240px;
-    bottom: 90px;
+    right: 190px;
+    bottom: 80px;
   } 
 
 
@@ -356,15 +356,15 @@ li a:hover{
 
     position: relative;
     bottom: 10px;
-    right: 105px;
+    right: 110px;
 }
 
 .chicburger h4{
     text-align:end;
 
     position: relative;
-    right: 240px;
-    bottom: 5px;
+    right: 190px;
+  
 }
 
 /*Double beef burger chips and salad*/
@@ -400,16 +400,171 @@ li a:hover{
 
     position: relative;
     bottom: 30px;
-    right: 105px;
+    right: 110px;
 }
 
 .beef-salad-chips h4{
     text-align:end;
 
     position: relative;
-    right: 240px;
+    right: 190px;
+    bottom: 20px;
+}
+
+.burger-bg{
+    position: relative;
+
+    top: 85px;
+    right: 30px;
+
+    filter: drop-shadow(8px 8px 16px rgba(91, 86, 86, 0.5)); /*Adds a shadow behind img to make it stand out more*/
+}
+
+.burgerbutton button{
+    background-color: rgb(253, 83, 31);
+
+    height: 90px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+
+    border-color:#ff0606;
+    border-width: 8px;
+    border-radius: 10px;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+    position: relative;
+    left: 910px;
+    bottom: 370px;
+}
+
+
+
+
+/*Pizza*/
+/*Multi pizza*/
+.multipizza h2 {
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.multipizza img{
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+}
+
+.multipizza p{
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding-top: 5px;
+
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+
+}
+
+.multipizza h3{
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom: 55px;
+    right: 85px;
+}
+
+.multipizza h4{
+    text-align:end;
+
+    position: relative;
+    right: 200px;
+    bottom: 20px;
+}
+
+/*hungry-loaded-combo*/
+.hungry-loaded-combo  h2 {
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.hungry-loaded-combo img{
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
+.hungry-loaded-combo p{
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding: 10px;
+
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+
+}
+
+.hungry-loaded-combo h3{
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom: 45px;
+    right: 90px;
+}
+
+.hungry-loaded-combo h4{
+    text-align:end;
+
+    position: relative;
+    right: 200px;
     bottom: 30px;
 }
+
+.pizza-bg{
+    position: relative;
+
+    bottom: 630px;
+    left: 770px;
+}
+
+.pizzabutton button{
+    background-color: rgb(253, 83, 31);
+
+    height: 90px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+
+    border-color:#ff0606;
+    border-width: 8px;
+    border-radius: 10px;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+    position: relative;
+    left: 960px;
+    bottom: 950px;
+}
+ 
+
+
+
+
+
+
+
+
 
 
 footer {
@@ -504,27 +659,4 @@ footer {
     border-radius: 50px;
     background: #f12c09;
     color: aliceblue;
-    text-transform: uppercase;
-    padding: 10px 0 ;
-    cursor:pointer;
-    font-size: 20px;
-}
-
-button{
-    background-color: rgb(253, 83, 31);
-
-    height: 90px;
-    width: 290px;
-    color: rgb(255, 255, 255);
-
-    border-color:#ff0606;
-    border-width: 8px;
-    border-radius: 10px;
-
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 30px;
-
-    position: relative;
-    left: 890px;
-    bottom: 300px;
-}
+    text-tr
