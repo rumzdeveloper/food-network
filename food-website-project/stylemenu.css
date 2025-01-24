@@ -497,7 +497,7 @@ right: 0px;
     
 
     position: relative;
-    top: 50px;
+    top: 70px;
     left: 20px;
 
 }
@@ -505,6 +505,10 @@ right: 0px;
 #fruit-juices > img{
     position: relative;
     left: 0px;
+}
+
+#fruit-juices h3{
+    color: #000000;
 }
 
 #mocktails{
@@ -517,8 +521,10 @@ right: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
     position: relative;
-    top:20px;
+    top:10px;
     left: 10px;
+
+    color: rgb(255, 255, 255);
 }
 
 #mocktails > img {
@@ -526,29 +532,50 @@ right: 0px;
     left: 0px;
 }
 
-#burger2 > h3{
-    color: black;
+#mocktails > h3{
+    color: rgb(255, 255, 255);
 }
 
-#burger3{
-    background: #ef8e3e;
-    color: rgb(255, 255, 255);
+#mocktails li{
+    text-align: left;
+    font-size: 20px;
+   
+   position: relative;
+   left: 140px;
+}
+
+
+#colddrinks{
+    background: #ff8800;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+    text-align: center;
 
     position: relative;
-    top: 100px;
+    top: 40px;
     left: 10px;
 
 }
 
-#burger3 > img{
+/*#colddrinks> img{
     position: relative;
-    left: 50px;
+   
+}*/
+
+#colddrinks h3{
+    color: #000000;
+}
+
+#colddrinks li{
+    text-align: left;
+    font-size: 20px;
+   
+   position: relative;
+   left: 140px;
 }
 
 #burger4{
