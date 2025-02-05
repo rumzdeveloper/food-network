@@ -97,7 +97,7 @@ h3, h4{
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  'Roboto', sans-serif;
     
 
     position: relative;
@@ -118,8 +118,8 @@ h3, h4{
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+    font-family: 'Roboto', sans-serif;
+
     position: relative;
     top:20px;
     left: 10px;
@@ -141,7 +141,7 @@ h3, h4{
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  'Roboto', sans-serif;
     
 
     position: relative;
@@ -162,7 +162,7 @@ h3, h4{
         border: 3px solid #f0ebeb55;
         border-radius: 6px;
         padding: 8px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family:  'Roboto', sans-serif;
         
         position: relative;
         left: 10px;
@@ -186,7 +186,7 @@ h3, h4{
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  'Roboto', sans-serif;
     
 
     position: relative;
@@ -208,7 +208,7 @@ h3, h4{
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  'Roboto', sans-serif;
     
     position: relative;
     left: 10px;
@@ -254,7 +254,7 @@ right: 0px;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  'Roboto', sans-serif;
     
     position: relative;
     top:50px;
@@ -289,7 +289,7 @@ right: 0px;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  'Roboto', sans-serif;
     
     position: relative;
     left: 10px;
@@ -325,7 +325,7 @@ right: 0px;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  'Roboto', sans-serif;
     
     position: relative;
     top: 60px;
@@ -359,7 +359,7 @@ right: 0px;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  'Roboto', sans-serif;
     
     position: relative;
     left: 10px;
@@ -380,7 +380,7 @@ right: 0px;
 #pepp-pizza > ul {
     list-style: none;
     color: #000000;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 #pepp-pizza ul , h4{
@@ -395,7 +395,7 @@ right: 0px;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Roboto', sans-serif;
     
     position: relative;
     top: 60px;
@@ -428,7 +428,7 @@ right: 0px;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  'Roboto', sans-serif;
     
     position: relative;
     left: 10px;
@@ -464,7 +464,7 @@ right: 0px;
     overflow-x: auto; /* Adds horizontal scrolling */
     overflow-y: hidden; /* Hides vertical overflow */
     white-space: nowrap; /* Prevents wrapping */
-    gap: 30px; /* Adds consistent spacing between elements */
+    gap: 35px; /* Adds consistent spacing between elements */
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -486,18 +486,18 @@ right: 0px;
 
 
 #fruit-juices{
-    background: #ffee00;
+    background: #ff8800  ;
     color: rgb(0, 0, 0);
     font-size: 18px;
     text-align: center;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
-    padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
     
 
     position: relative;
-    top: 70px;
+    top: 120px;
     left: 20px;
 
 }
@@ -517,11 +517,11 @@ right: 0px;
     text-align: center;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
-    padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 11px;
+    font-family: 'Roboto', sans-serif;
     
     position: relative;
-    top:10px;
+    top: 50px;
     left: 10px;
 
     color: rgb(255, 255, 255);
@@ -552,11 +552,11 @@ right: 0px;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 
     position: relative;
-    top: 40px;
+    top: 110px;
     left: 10px;
 
 }
@@ -575,221 +575,360 @@ right: 0px;
     font-size: 20px;
    
    position: relative;
-   left: 140px;
+   left: 130px;
 }
 
-#burger4{
-        background: #fbff00;
-        font-size: 18px;
-        text-align: center;
-        border: 3px solid #f0ebeb55;
-        border-radius: 6px;
-        padding: 8px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        
-        position: relative;
-        left: 10px;
-        top: 30px;
-    }
-    
-    #burger4 > img {
-    position: relative;
-    right: 0px;
-    }
 
-    #burger4 > h3{
-        color: black;
-    }
-    
-#burger5{
-    background: #ef8e3e;
+#teacoffee{
+    background: #b76522;
     color: rgb(255, 255, 255);
     font-size: 18px;
     text-align: center;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Roboto', sans-serif;
     
 
     position: relative;
-    top: 10px;
+    top: 20px;
     left: 20px;
 
 }
 
-#burger5 > img{
+
+#teacoffee > img{
     position: relative;
     left: 0px;
     transform: rotate(5deg);
 }
 
-#burger6{
-    background: #fbff00;
+
+#teacoffee > h3{
+    color: rgb(0, 0, 0);
+}
+
+#teacoffee li{
+text-align: left;
+font-size: 20px;
+color: #000000;
+
+position: relative;
+left: 200px;
+}
+
+
+
+#milkshakemad{
+        background: #ff8800;
+        font-size: 18px;
+        text-align: center;
+        border: 3px solid #f0ebeb55;
+        border-radius: 6px;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+        
+        position: relative;
+        left: 10px;
+        top: 80px;
+    }
+    
+    #milkshakemad > img {
+    position: relative;
+    right: 0px;
+    }
+
+    #milkshakemad > h3{
+        color: rgb(0, 0, 0);
+    }
+    
+    #milkshakemad > p{
+        color: #ffffff;
+    }
+
+
+#milkshakemad li{
+    text-align: left;
+    font-size: 20px;
+   
+   position: relative;
+   left: 150px;
+}
+
+
+#slushie{
+    background: #de2417;
     font-size: 18px;
     text-align: center;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
     padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Roboto', sans-serif;
     
     position: relative;
     left: 10px;
-    top:30px;
+    top: 50px;
 
     margin-right: 30px;
 }
 
-#burger6 > img {
+#slushie > img {
 position: relative;
 right: 0px;
 }
 
-#burger6 > h3{
-    color: black;
+#slushie > h3{
+    color: rgb(255, 255, 255);
+}
+
+#slushie > p{
+    color: #ffffff;
 }
 
 
+/*DESSERTS*/
 
-
-
-
-
-
-
-
-
-
-
-/*beef burger popup
-.hover-container {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
+.display-flex44 {
+    display: flex; /* Enables flexbox layout */
+    overflow-x: auto; /* Adds horizontal scrolling */
+    overflow-y: hidden; /* Hides vertical overflow */
+    white-space: nowrap; /* Prevents wrapping */
+    gap: 30px; /* Adds consistent spacing between elements */
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
-.hover-container img {
-    width: 300px;  Set a fixed width for each image 
-    height: auto;  Maintain the image's aspect ratio 
-    margin: 0; Remove any default margin 
+.display-flex44 > div img {
+    /*width: 300px; Set a fixed width for each image */
+    height: auto;  /*Maintain the image's aspect ratio */
+    margin: 0; /* Remove any default margin */
+    
+    
 }
 
-.popup-message {
-        display: none; /* Hide the popup by default 
-        width: 250px;
-        background-color: #ef8e3e;
-        color: rgb(56, 23, 1);
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 20px;
-        text-align: center;
-        border: 3px solid #f0ebeb55;
-        border-radius: 6px;
-        padding: 8px 0;
-        position: absolute;
-        z-index: 1;
-        top: 10%; /* Position the pop-up below the element 
-        left: 50%; /* Center the pop-up 
-        transform: translateX(-50%);
-}
-    /*display: hidden;
-    width: 250px;
-    height: 250px;
-    background-color: #ef8e3e;
-    color: rgb(56, 23, 1);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-size: 20px;
+#sundaedes{
+    background: #a55222;
+    font-size: 18px;
     text-align: center;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    top: 2%; /* Position the pop-up above the element 
-    left: 120%;
-    margin-left: -100px; /* Center the pop-up 
-    opacity: 0;
-    transition: opacity 0.3s;
-
-
-.hover-container:hover .popup-message {
-    visibility: visible;
-    opacity: 1;
-}
-
-/*breakfast burger*/
-.hover-container1 {
+    padding: 8px;
+    font-family:  'Roboto', sans-serif;
+    
     position: relative;
-    display: inline-block;
-    cursor: pointer;
+    top:50px;
+    left: 10px;
 }
 
-.popup-message1 {
-    visibility: hidden;
-    width: 250px;
-    background-color: #ffef40;
-    color: rgb(56, 23, 1);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-size: 20px;
+#sundaedes > img {
+    position: relative;
+    left: 0px;
+}
+
+#sundaedes > p {
+    color: rgb(255, 255, 255);
+}
+
+#sundaedes > ul {
+    list-style: none;
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sundaedes ul h4 {
+    color: #ffffff;
+}
+
+
+
+#oreodes {
+    background: #ffd500;
+    font-size: 18px;
     text-align: center;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    top: 20%; /* Position the pop-up above the element */
-    left: 120%;
-    margin-left: -100px; /* Center the pop-up */
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.hover-container1:hover .popup-message1 {
-    visibility: visible;
-    opacity: 1;
-}
-
-/*Double beef burger*/
-.hover-container2 {
+    padding: 8px;
+    font-family:  'Roboto', sans-serif;
+    
     position: relative;
-    display: inline-block;
-    cursor: pointer;
+    left: 10px;
+    top:160px;
+
+    margin-right: 30px;
 }
 
-.popup-message2 {
-    visibility: hidden;
-    width: 250px;
-    background-color:#ef8e3e ;
-    color: rgb(56, 23, 1);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-size: 20px;
+#oreodes > img {
+position: relative;
+bottom: 10px;
+right: 10px;
+}
+
+#oreodesbowl{
+    position: relative;
+
+    top: 8px;
+    right: 0px;
+
+}
+
+#oreodes > h3{
+    color: rgb(5, 5, 5);
+}
+ 
+#oreodes > ul {
+    list-style: none;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#oreodes ul , h4 {
+    color: #ffffff;
+}
+
+
+#rolledicecream{
+    background: #a55222;
+    font-size: 18px;
     text-align: center;
     border: 3px solid #f0ebeb55;
     border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 50%; /* Position the pop-up above the element */
-    left: 50%;
-    margin-left: 50px; /* Center the pop-up */
-    opacity: 0;
-    transition: opacity 0.3s;
+    padding: 8px;
+    font-family:  'Roboto', sans-serif;
+    
+    position: relative;
+    top: 60px;
+    left: 10px;
 }
 
-.hover-container2:hover .popup-message2 {
-    visibility: visible;
-    opacity: 1;
+#rolledicecream > img {
+    position: relative;
+    left: 0px;
 }
 
-/*second burger row
-.display-flex2{
-    display: flex;
+#rolledicecream > p {
+    color: rgb(255, 255, 255);
 }
 
-.display-flex2 > div{
-    width: 30%;
-    margin: 20px;
+#rolledicecream > ul {
+    list-style: none;
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-    margin-top: 50px;
-    margin-bottom: -130px;
+#rolledicecream h4{
+    color: #ffffff;
+}
+
+
+#pepp-pizza {
+    background: #ffd500;
+    font-size: 18px;
+    text-align: center;
+    border: 3px solid #f0ebeb55;
+    border-radius: 6px;
+    padding: 8px;
+    font-family:  'Roboto', sans-serif;
+    
+    position: relative;
+    left: 10px;
+    top: 100px;
+
+    margin-right: 30px;
+}
+
+#pepp-pizza > img {
+position: relative;
+right: 0px;
+}
+
+#pepp-pizza > h3{
+    color: rgb(5, 5, 5);
+}
+ 
+#pepp-pizza > ul {
+    list-style: none;
+    color: #000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#pepp-pizza ul , h4{
+    color: #000000;
+}
+
+
+#veg-pizza{
+    background: #d74e20;
+    font-size: 18px;
+    text-align: center;
+    border: 3px solid #f0ebeb55;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+
+#veg-pizza > img {
+    position: relative;
+    left: 0px;
+}
+
+#veg-pizza > p {
+    color: rgb(255, 255, 255);
+}
+
+#veg-pizza > ul {
+    list-style: none;
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#veg-pizza ul h4{
+    color: #ffffff;
+}
+
+#pizza-rolls {
+    background: #ffd500;
+    font-size: 18px;
+    text-align: center;
+    border: 3px solid #f0ebeb55;
+    border-radius: 6px;
+    padding: 8px;
+    font-family:  'Roboto', sans-serif;
+    
+    position: relative;
+    left: 10px;
+    top: 60px;
+
+    margin-right: 30px;
+}
+
+#pizza-rolls > img {
+position: relative;
+right: 0px;
+}
+
+#pizza-rolls > h3{
+    color: rgb(5, 5, 5);
+}
+ 
+#pizza-rolls > ul {
+    list-style: none;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#pizza-rolls ul , h4{
+    color: #000000;
 }
 */
+
+
+
+
+
+
+
+
