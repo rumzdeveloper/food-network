@@ -13,6 +13,7 @@
 
  <div class="heading-bg8"><h2>Slide Into Your Cravings</h2><br>
   <p>Explore our mouthwatering menu—scroll through and discover your favorites!</p>
+  <button id="order-button" onclick="scrollToForm()">Place Your Order Online</button>
 </div>
   <br> <br>
 
@@ -213,7 +214,13 @@
              your choice of beef, chicken, or both!<br>
               Served with a side of creamy guacamole<br>
             and extra cheese for the ultimate taco<br> experience.</p><br>
-           <h3>only R45</h3>
+            <ul>
+              <h3>Price:</h3><br>
+               <li>Chicken – R45</li>
+               <li>Steak – R50</li>
+               <li>One Chicken & One Steak – R48</li>
+            </ul>
+            <br>
    </div>
 
    <div id="hotdogz">
@@ -233,35 +240,42 @@
      a soft tortilla and loaded with fresh veggies,<br>
     a drizzle of tangy sauce, and a sprinkle of <br>
     cheese for the perfect on-the-go meal.</p><br>
-   <h3>only R45</h3>
+       <h3>Price:</h3><br>
+             <ul>
+               <li>Chicken – R40</li>
+               <li>Steak – R45</li>
+            </ul>
    </div>
 
 
   <div id="cheesefryzz">
    <img src="Images/cheesyfryb007850823b84b7f2af09d9cbe2eb31c-removebg-preview.png" width="350px" alt="cheesy fries">
-   <h3>The Ultimate <br>Guacamole Veggie Burger</h3><br>
-   <p>A flavorful veggie patty topped with creamy <br>
-     guacamole, spicy jalapeños, crisp veggies, and our <br>
-     irresistible secret sauce!</p><br>
-     <h3>only R90</h3>
+   <h3>Cheesy Chaos Fries</h3><br>
+   <p>Crispy golden fries loaded with creamy cheese<br>
+    sauce, spicy jalapeños, and a sprinkle of red <br>
+    pepper bits for that extra kick. A messy, <br>
+    melty, must-have treat!</p><br>
+     <h3>only R35</h3>
   </div>
 
  <div id="nachozz">
   <img src="Images/nachos-with-melted-cheddar-sauce-top_935552-4752-removebg-preview.png" width="230px"  alt="cheesy nachos">
-  <h3>The Sweet & Savory<br> Smash Burger</h3><br>
-  <p>Indulge in a bold fusion of flavors: two glazed donuts <br>
-    as buns, a juicy beef patty,crispy macon, gooey cheese, <br>
-     and caramelized onions!</p><br>
-  <h3>only R115</h3>
+  <h3>Nacho Overload</h3><br>
+  <p>Crunchy tortilla chips smothered in creamy <br>
+    cheese sauce, topped with fresh parsley, <br>
+    and served with a side of our special sauce<br>
+     for the perfect dip. Bold, cheesy, <br>
+     and seriously addictive!</p><br>
+  <h3>only R50</h3>
  </div>
 
  <div id="mozstick">
    <img src="Images/Frozen-Mozzarella-Sticks-in-Air-Fryer-PIC3-removebg-preview.png" width="230px" alt="fried mozzarella sticks">
-   <h3>The Crispy Crumbed <br> Chicken Deluxe</h3><br>
-   <p>A golden crumbed chicken fillet topped with <br>
-    crunchy coleslaw, crispy macon, fresh lettuce,<br>
-     juicy tomato, and zesty onions for the perfect bite!</p><br>
- <h3>only R95</h3>  
+   <h3>Melty Mozzarella Sticks</h3><br>
+   <p>Crispy on the outside, gooey on the inside! Golden-fried<br>
+     mozzarella sticks served with a side of zesty dipping<br>
+      sauce for the ultimate cheesy bite.</p><br>
+ <h3>only R40</h3>  
 </div>
 
   </div>
@@ -409,7 +423,7 @@
    </div>
      
      <div id="minidons">
-    <img src="Images/minidonsDSC_9131_edited-1-removebg-preview.png" width="350px" alt="chocolate donuts with sprinkles">
+    <img src="Images/minidonsDSC_9131_edited-1-removebg-preview.png" width="290px" alt="chocolate donuts with sprinkles">
      <h3>Mini Donut Delights</h3><br>
      <p>
       Satisfy your sweet tooth with a dozen mini donuts, <br>
@@ -455,3 +469,65 @@
  <br>
  <br>
  <br>
+
+ <!--ORDER FORM-->
+ <div class="order-section">
+  <h2>Place Your Order</h2>
+  <form id="order-form" class="form-container"> <!-- Added class for flexbox -->
+      <div class="left-column">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+      </div>
+
+      <div class="right-column">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="menu-item">Menu Item:</label>
+          <input type="text" id="menu-item" name="menu-item" required>
+
+          <label for="special-requests">Special Requests:</label>
+          <textarea id="special-requests" name="special-requests" rows="4" placeholder="Any special requests?"></textarea>
+      </div>
+    </form>
+      <button type="submit">Submit Order</button>
+
+</div>
+
+
+ <!--<div class="order-section">
+  <h2>Place Your Order</h2>
+  <form id="order-form">
+    <div class="left-column">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+    </div>
+     
+<div class="right-column">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      
+
+      <label for="menu-item">Menu Item:</label>
+      <input type="text" id="menu-item" name="menu-item" required  >
+
+    
+      <label for="special-requests">Special Requests:</label>
+      <textarea id="special-requests" name="special-requests" rows="4" placeholder="Any special requests?"></textarea>
+</div>
+      <button type="submit">Submit Order</button>
+  </form>
+</div>-->

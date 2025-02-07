@@ -70,6 +70,27 @@ h3, h4{
 
 }
 
+
+#order-button {
+    display: block;
+    width: 100%; 
+    padding: 10px;
+    background-color: #ffdb0c;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    margin-top: 20px; 
+}
+
+#order-button:hover {
+    background-color: #e6c200; 
+}
+
 /*BURGER MENU*/
 .display-flex11 {
     display: flex; /* Enables flexbox layout */
@@ -487,7 +508,7 @@ right: 0px;
     
 
     position: relative;
-    top: 45px;
+    top: 12px;
     left: 20px;
 
 }
@@ -495,6 +516,10 @@ right: 0px;
 #tacoss > img{
     position: relative;
     left: 0px;
+}
+
+#tacoss > ul{
+    list-style: none;
 }
 
 
@@ -508,7 +533,7 @@ right: 0px;
     font-family: 'Roboto', sans-serif;
 
     position: relative;
-    top:20px;
+    top: 120px;
     left: 10px;
 }
 
@@ -537,7 +562,7 @@ right: 0px;
     
 
     position: relative;
-    top: 100px;
+    top: 70px;
     left: 10px;
 
 }
@@ -546,6 +571,11 @@ right: 0px;
     position: relative;
     left: 0px;
 }
+
+#wrapchic > ul{
+    list-style: none;
+}
+
 
 
 #cheesefryzz{
@@ -559,7 +589,7 @@ right: 0px;
         
         position: relative;
         left: 10px;
-        top: 30px;
+        top: 120px;
     }
     
     #cheesefryzz > img {
@@ -587,7 +617,7 @@ right: 0px;
     
 
     position: relative;
-    top: 10px;
+    top: 120px;
     left: 20px;
 
 }
@@ -595,7 +625,6 @@ right: 0px;
 #nachozz > img{
     position: relative;
     left: 0px;
-    transform: rotate(5deg);
 }
 
 
@@ -610,7 +639,7 @@ right: 0px;
     
     position: relative;
     left: 10px;
-    top:13px;
+    top: 80px;
 
     margin-right: 30px;
 }
@@ -733,11 +762,6 @@ right: 0px;
 
 }
 
-/*#colddrinks> img{
-    position: relative;
-   
-}*/
-
 #colddrinks h3{
     color: #000000;
 }
@@ -792,7 +816,7 @@ left: 200px;
 
 
 #milkshakemad{
-        background: #ff8800;
+        background: #caffc3;
         font-size: 18px;
         text-align: center;
         border: 3px solid #f0ebeb55;
@@ -813,11 +837,7 @@ left: 200px;
     #milkshakemad > h3{
         color: rgb(0, 0, 0);
     }
-    
-    #milkshakemad > p{
-        color: #ffffff;
-    }
-
+  
 
 #milkshakemad li{
     text-align: left;
@@ -999,7 +1019,7 @@ right: 10px;
 
 #minidons > img {
 position: relative;
-right: 0px;
+right: 15px;
 }
 
 #minidons > h3{
@@ -1079,8 +1099,121 @@ right: 0px;
 }
 
 
+/*Order form*/
+.order-section {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    background-color: rgb(249, 117, 30);
+}
+
+.order-section h2 {
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.form-container { /* Use this class for flexbox */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between columns */
+}
+
+.left-column,
+.right-column {
+    flex: 1; /* Each column takes equal space */
+    padding: 0 10px; /* Add some padding between columns */
+}
+
+.order-section label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.order-section input,
+.order-section select,
+.order-section textarea {
+    width: 100%; /* Full width of the column */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.order-section button {
+    width: 1060px;
+    height: 50px;
+    padding: 10px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    font-size: 25px;
+    color: #ffffff;
+    
+}
+
+.order-section button:hover {
+    background-color: #ff5151;
+}
 
 
+/*
+.order-section {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.order-section h2 {
+    text-align: center;
+}
+
+.order-section {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.left-column,
+.right-column {
+    flex: 1; 
+    padding: 0 10px; 
+}
+
+.order-section label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.order-section input,
+.order-section select,
+.order-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.order-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ef8e3e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.order-section button:hover {
+    background-color: #d77a2b;
+}
 
 
 

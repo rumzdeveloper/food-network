@@ -146,13 +146,8 @@ h3, h4{
 
 #nav-menu li a:hover{
     background-color: rgb(237, 126, 92);
+    cursor: pointer; 
 }
-
-
-
-
-
-
 
 
 /*Todays Specials Menu Styling*/
@@ -361,6 +356,7 @@ position: relative;
 
 #food-nav-menu li a:hover{
     background-color: rgb(237, 126, 92);
+    cursor: pointer;
 }
 
 
@@ -491,7 +487,10 @@ position: relative;
     bottom: 370px;
 }
 
-
+.burgerbutton button:hover{
+    background-color: rgb(255, 8, 0);
+    cursor: pointer;
+}
 
 
 /*Pizza*/
@@ -610,6 +609,11 @@ position: relative;
     left: 960px;
     bottom: 310px;
 
+}
+
+.pizzabutton button:hover{
+    background-color: rgb(255, 8, 0);
+    cursor: pointer;
 }
  
 /*drinks and desserts*/
@@ -801,7 +805,7 @@ position: relative;
     left: 400px;
 
     rotate: -2deg;
-    margin-bottom: -350px;
+    margin-bottom: -230px;
    
 }
 
@@ -825,6 +829,12 @@ position: relative;
 
 }
  
+.desdrinkbutton button:hover{
+    background-color: rgb(255, 8, 0);
+    cursor: pointer;
+}
+
+
 /*Book your party*/
 
 .party-section {
@@ -892,12 +902,20 @@ position: relative;
 .book-btn {
     background: #ff6600;
     color: white;
+    font-size: 15px;
+
     border: none;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 15px;
 }
+
+.book-btn:hover{
+        background-color: rgb(255, 8, 0);
+        cursor: pointer;
+}
+
 .contact-info {
     margin-top: 15px;
     font-weight: bold;
@@ -1131,9 +1149,14 @@ position: relative;
     font-size: 20px;
 }
 
+.contact-form-btn:hover{
+        background-color: rgb(188, 10, 4);
+        cursor: pointer;
+}
+
 /*FOOTER*/
 #site-footer {
-    background-color: rgb(255, 17, 17); 
+    background-color: rgb(227, 20, 20); 
     color: white; 
     padding: 20px 0; 
     text-align: center; 
@@ -1193,27 +1216,3 @@ position: relative;
 
 
 
-/*
-.speech-bubble {
-    position: relative;
-    background: #00aabb;
-    border-radius: 0.4em;
-    padding: 10px;
-    color: white;
-    width: 200px;
-  }
-  
-  .speech-bubble::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 20px;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-top-color: #00aabb;
-    border-bottom: 0;
-    margin-left: -10px;
-    margin-bottom: -10px;
-  }
-    */
