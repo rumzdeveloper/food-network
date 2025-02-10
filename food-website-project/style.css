@@ -174,7 +174,7 @@ h3, h4{
     margin:30px;
 
     margin-top: 50px;
-    margin-bottom: -130px;
+    margin-bottom: 50px;
 }
 
 
@@ -187,8 +187,8 @@ h3, h4{
 
 .lays-burger > img{
     position: relative;
-    right: 200px;
-    bottom: 100px;
+    right: 6px;
+    bottom: 30px;
 }
 
 .lays-burger > p {
@@ -200,7 +200,7 @@ h3, h4{
     padding: 10px;
 
     position: relative;
-    bottom: 230px;
+    bottom: 50px;
     left: 10px;
 
 }
@@ -210,7 +210,7 @@ h3, h4{
     font-size: 40px;
 
     position: relative;
-    bottom:220px;
+    bottom:50px;
     right:120px;
 }
 
@@ -219,7 +219,7 @@ text-align:end;
 
 position: relative;
  right: 190px;
- bottom:215px;
+ bottom: 49px;
 }
 
 
@@ -234,7 +234,9 @@ position: relative;
 .special-loaded-fries > img{
     position: relative;
     left: 60px;
-    transform: rotate(-7deg);
+    bottom: 5px;
+
+    transform: rotate(-10deg);
 
 }
 
@@ -257,7 +259,7 @@ position: relative;
     font-size: 40px;
 
     position: relative;
-    bottom:5px;
+    bottom: 5px;
     right: 100px;
 }
 
@@ -279,8 +281,8 @@ position: relative;
 
 .epic-shakes > img {
     position: relative;
-    right: 110px;
-    bottom: 30px;
+    left: 35px;
+    bottom: 1px;
 }
 
 .epic-shakes > p {
@@ -292,7 +294,7 @@ position: relative;
     padding: 20px;
 
     position: relative;
-    bottom: 80px;
+    bottom: 3px;
     left: 10px;
 }
 
@@ -301,7 +303,7 @@ position: relative;
     font-size: 40px;
 
     position: relative;
-    bottom:90px;
+    bottom:14px;
     right: 110px;
 }
 
@@ -310,7 +312,7 @@ position: relative;
 
     position: relative;
     right: 190px;
-    bottom: 80px;
+    bottom: 8px;
   } 
 
 
@@ -891,6 +893,7 @@ position: relative;
 .party-form label {
     font-weight: bold;
     margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .party-form input, .party-form select, .party-form textarea {
     width: 100%;
@@ -898,6 +901,8 @@ position: relative;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .book-btn {
     background: #ff6600;
@@ -919,6 +924,7 @@ position: relative;
 .contact-info {
     margin-top: 15px;
     font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*DELIVERY*/
@@ -1076,6 +1082,8 @@ position: relative;
 
     position: relative;
     left: 100px;
+
+    margin-bottom: 110px;
 }
 
 .contact-map{
@@ -1175,12 +1183,12 @@ position: relative;
 }
 
 .footer-section h2 {
-    margin-bottom: 10px; /* Space below headings */
+    margin-bottom: 10px; 
 }
 
 .footer-section ul {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove padding */
+    list-style-type: none;
+    padding: 0; 
 }
 
 .footer-section ul li {
@@ -1197,16 +1205,16 @@ position: relative;
 }
 
 .footer-bottom {
-    margin-top: 20px; /* Space above the bottom section */
+    margin-top: 20px; 
 }
 
 .socials {
-    margin-top: 10px; /* Space above social links */
+    margin-top: 10px; 
 }
 
 .socials a {
-    margin: 0 10px; /* Space between social links */
-    color: white; /* Social link color */
+    margin: 0 10px; 
+    color: white; 
 }
 
 

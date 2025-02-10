@@ -18,7 +18,7 @@
   <br> <br>
 
 <!--BURGER MENU-->
- <div class="bg8" >
+ <div class="bg8" id="burgermenushort">
    <h3 class="hdbg8">Buns of Glory</h3>
    <div class="display-flex11">
 
@@ -86,14 +86,8 @@
    <br>
    <br>
 
- <div class="bg8">
+ <div class="bg8" id="pizzashorts">
    <h3 class="hdbg8">Pizza Palooza</h3>
-
-   <!--HOW TO FIX MENU
-   1. ADD DISPLAY FLEX
-   2. ADJUST IMAGE SIZE HTML
-   3. THEN ADJUST DISPLAY IN CSS
-   4. ADD THE POP UP DESCRIPTION-->
 
    <div class="display-flex22">
 
@@ -216,9 +210,9 @@
             and extra cheese for the ultimate taco<br> experience.</p><br>
             <ul>
               <h3>Price:</h3><br>
-               <li>Chicken – R45</li>
-               <li>Steak – R50</li>
-               <li>One Chicken & One Steak – R48</li>
+               <li>Chicken: R45</li>
+               <li>Steak: R50</li>
+               <li>One Chicken & One Steak: R48</li>
             </ul>
             <br>
    </div>
@@ -242,8 +236,8 @@
     cheese for the perfect on-the-go meal.</p><br>
        <h3>Price:</h3><br>
              <ul>
-               <li>Chicken – R40</li>
-               <li>Steak – R45</li>
+               <li>Chicken: R40</li>
+               <li>Steak: R45</li>
             </ul>
    </div>
 
@@ -287,7 +281,7 @@
 
 
 
-<div class="bg8" >
+<div class="bg8" id="desdrinksshort">
   <h3 class="hdbg8">Drinks</h3>
   <div class="display-flex33">
 
@@ -296,10 +290,10 @@
    <h3>Fresh & Fruity Sips</h3><br>
            <p>Sip on vibrant, freshly pressed juices with a twist:</p><br>
             <ul>
-              <li>Orange: Sunny Citrus Splash</li>
-              <li>Purple: Berry Blast</li>
-              <li>Red: Crimson Cooler</li>
-              <li>Yellow: Tropical Sunshine</li>
+              <li>Sunny Citrus Splash</li>
+              <li>Berry Blast</li>
+              <li>Crimson Cooler</li>
+              <li>Tropical Sunshine</li>
             </ul>
             <br>
       <h3>only R25</h3>
@@ -342,9 +336,9 @@
     <br> Perfect for any moment that calls for warmth and relaxation!<br>
        <br>
        <ul>
-        <li><b>Tea -R25</b></li>
-         <li><b>Coffee - R40</b></li>
-         <li><b>Hot Chocolate – R40</b></li></ul><br>
+        <li><b>Tea: R25</b></li>
+         <li><b>Coffee: R40</b></li>
+         <li><b>Hot Chocolate: R40</b></li></ul><br>
   </div>
 
  <div id="milkshakemad">
@@ -389,9 +383,9 @@
      <br>
      <ul>
      <h4>Price:</h4><br>
-         <li>Single Scoop – R35</li>
-         <li>Double Scoop – R50 </li>
-         <li> Triple Scoop – R65</li>
+         <li>Single Scoop: R35</li>
+         <li>Double Scoop: R50 </li>
+         <li>Triple Scoop: R65</li>
      </ul>
      <br>
      </div>
@@ -432,8 +426,8 @@
        like—or mix them up for a fun variety!
      </p><br>
      <h4>Price:</h4><br>
-     <li>Half Dozen – R35</li>
-     <li>Dozen – R60 </li>
+     <li>Half Dozen: R35</li>
+     <li>One Dozen: R60 </li>
  </ul>
      <br>
    </div>
@@ -472,7 +466,7 @@
 
  <!--ORDER FORM-->
  <div class="order-section">
-  <h2>Place Your Order</h2>
+  <h2 id="ordernow">Place Your Order</h2>
   <form id="order-form" class="form-container"> <!-- Added class for flexbox -->
       <div class="left-column">
           <label for="name">Name:</label>
@@ -483,7 +477,11 @@
 
           <label for="quantity">Quantity:</label>
           <input type="number" id="quantity" name="quantity" min="1" value="1" required>
-      </div>
+
+          <label for="special-requests">Special Requests:</label>
+          <textarea id="special-requests" name="special-requests" rows="4" placeholder="Any special requests?"></textarea>
+
+        </div>
 
       <div class="right-column">
           <label for="email">Email:</label>
@@ -492,42 +490,11 @@
           <label for="menu-item">Menu Item:</label>
           <input type="text" id="menu-item" name="menu-item" required>
 
-          <label for="special-requests">Special Requests:</label>
-          <textarea id="special-requests" name="special-requests" rows="4" placeholder="Any special requests?"></textarea>
+          <label for="deliverycollection">Delivery or Collection?</label>
+          <input type="text" id="deliverycollection" name="deliverycollection" required>
       </div>
-    </form>
-      <button type="submit">Submit Order</button>
-
-</div>
-
-
- <!--<div class="order-section">
-  <h2>Place Your Order</h2>
-  <form id="order-form">
-    <div class="left-column">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required>
-
-      <label for="quantity">Quantity:</label>
-      <input type="number" id="quantity" name="quantity" min="1" value="1" required>
-    </div>
-     
-<div class="right-column">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-
       
+    </form>
+    <button type="submit" id="submit-button">Submit Order</button>
 
-      <label for="menu-item">Menu Item:</label>
-      <input type="text" id="menu-item" name="menu-item" required  >
-
-    
-      <label for="special-requests">Special Requests:</label>
-      <textarea id="special-requests" name="special-requests" rows="4" placeholder="Any special requests?"></textarea>
 </div>
-      <button type="submit">Submit Order</button>
-  </form>
-</div>-->
