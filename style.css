@@ -1,0 +1,1226 @@
+
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+* {
+    box-sizing: border-box;
+}
+
+/*animation1 slide-burger-everythingimg*/
+.container{
+    overflow: hidden;
+    width: 10%;
+}
+
+.slide-burger-everything{
+    position: relative;
+    left: 100%;
+    animation: slide-in 3s forwards 1;
+
+}
+
+
+@keyframes slide-in {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+#intro{
+    background-color: #ffffff;
+    padding: 18px;
+    border-radius: 7px;
+
+    color: rgb(250, 74, 21);
+    font-size: 40px;
+    text-align: left;
+
+    position: relative;
+    left: 500px;
+    bottom: 420px;
+
+    margin-bottom: -320px;
+
+}
+
+
+body{
+    background-image: url(Images/abstract-orange-gradient-vertical-background_7954-20814.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    overflow-x: hidden;
+}
+
+h1, h2{
+    color: rgb(255, 255, 255);
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+h3, h4{
+    color: rgb(255, 255, 255);
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.heading-bg{
+    background-color: rgb(249, 117, 30);
+
+    padding: 30px;
+}
+
+.background-specials h2, h3, h4{
+    color: rgb(202, 33, 33);
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.dessert-background h2, h3, h4{
+    color: rgb(202, 33, 33);
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.icecream-background  h2, h3, h4{
+    color: rgb(202, 33, 33);
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.colddrink-background h2, h3, h4{
+    color: rgb(202, 33, 33);
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#nav-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(253, 83, 31);
+
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#nav-menu li{
+    float: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#nav-menu li a{
+    display: block;
+
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    padding: 10px 30px 10px;
+    
+
+    text-decoration: none;
+}
+
+#nav-menu li a:hover{
+    background-color: rgb(237, 126, 92);
+    cursor: pointer; 
+}
+
+
+/*Todays Specials Menu Styling*/
+
+.background-specials {
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 7px;
+
+    width: 350px;
+    height: 520px;
+    display: inline-block;
+
+    box-shadow: 0 1px 1px 0 rgb(174, 70, 14), 0 2px 3px 0 rgb(255, 98, 0);
+
+}
+
+.display-flex1{
+    display: flex;
+}
+
+.display-flex1 > div{
+    width: 40%;
+    margin:30px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*LAYS BEEF BURGER*/
+.lays-burger > h2{
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.lays-burger > img{
+    position: relative;
+    right: 6px;
+    bottom: 30px;
+}
+
+.lays-burger > p {
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding: 10px;
+
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+
+}
+
+.lays-burger > h3{
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom:50px;
+    right:120px;
+}
+
+.lays-burger > h4{
+text-align:end;
+
+position: relative;
+ right: 190px;
+ bottom: 49px;
+}
+
+
+/*2 LOADED CHEESE FRIES*/
+.special-loaded-fries > h2{
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+
+.special-loaded-fries > img{
+    position: relative;
+    left: 60px;
+    bottom: 5px;
+
+    transform: rotate(-10deg);
+
+}
+
+.special-loaded-fries > p {
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding: 10px;
+
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+
+}
+
+.special-loaded-fries > h3{
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom: 5px;
+    right: 100px;
+}
+
+.special-loaded-fries > h4{
+  text-align:end;
+
+  position: relative;
+  right: 200px;
+  
+}
+
+/*EPIC MILKSHAKES*/
+
+.epic-shakes > h2 {
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.epic-shakes > img {
+    position: relative;
+    left: 35px;
+    bottom: 1px;
+}
+
+.epic-shakes > p {
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding: 20px;
+
+    position: relative;
+    bottom: 3px;
+    left: 10px;
+}
+
+.epic-shakes > h3 {
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom:14px;
+    right: 110px;
+}
+
+.epic-shakes > h4 {
+    text-align:end;
+
+    position: relative;
+    right: 190px;
+    bottom: 8px;
+  } 
+
+
+
+
+
+/*Full menu Styling*/
+/*Navigation menu for full menu*/
+#food-nav-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+   
+    overflow: hidden;
+    background-color: rgb(253, 83, 31);
+
+    margin-top: 20px;
+}
+
+#food-nav-menu li{
+    float: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   
+
+    margin-right: 50px; 
+    margin-left: 40px;
+
+}
+
+#food-nav-menu li a{
+    display: block;
+
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    padding: 10px 10px;
+    
+
+    text-decoration: none;
+}
+
+#food-nav-menu li a:hover{
+    background-color: rgb(237, 126, 92);
+    cursor: pointer;
+}
+
+
+.display-flex2{
+    display: flex;
+}
+
+.display-flex2 > div{
+    width: 30%;
+    margin:20px;
+
+}
+
+/*chicken burger and chips*/
+.chicburger h2{
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.chicburger img{
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    
+}
+
+.chicburger p{
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding: 10px;
+
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+
+}
+
+.chicburger h3{
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom: 10px;
+    right: 110px;
+}
+
+.chicburger h4{
+    text-align:end;
+
+    position: relative;
+    right: 190px;
+  
+}
+
+/*Double beef burger chips and salad*/
+.beef-salad-chips h2 {
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.beef-salad-chips img{
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
+.beef-salad-chips p{
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding: 10px;
+
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+
+}
+
+.beef-salad-chips h3{
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom: 30px;
+    right: 110px;
+}
+
+.beef-salad-chips h4{
+    text-align:end;
+
+    position: relative;
+    right: 190px;
+    bottom: 20px;
+}
+
+.burger-bg{
+    position: relative;
+
+    top: 85px;
+    right: 30px;
+
+    filter: drop-shadow(8px 8px 16px rgba(91, 86, 86, 0.5)); /*Adds a shadow behind img to make it stand out more*/
+}
+
+.burgerbutton button{
+    background-color: rgb(253, 83, 31);
+
+    height: 90px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+
+    border-color:#ff0606;
+    border-width: 8px;
+    border-radius: 10px;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+    position: relative;
+    left: 910px;
+    bottom: 370px;
+}
+
+.burgerbutton button:hover{
+    background-color: rgb(255, 8, 0);
+    cursor: pointer;
+}
+
+
+/*Pizza*/
+/*Multi pizza*/
+.multipizza h2 {
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.multipizza img{
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+}
+
+.multipizza p{
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding-top: 5px;
+
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+
+}
+
+.multipizza h3{
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom: 55px;
+    right: 85px;
+}
+
+.multipizza h4{
+    text-align:end;
+
+    position: relative;
+    right: 200px;
+    bottom: 20px;
+}
+
+/*hungry-loaded-combo*/
+.hungry-loaded-combo  h2 {
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.hungry-loaded-combo img{
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
+.hungry-loaded-combo p{
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding: 10px;
+
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+
+}
+
+.hungry-loaded-combo h3{
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom: 45px;
+    right: 90px;
+}
+
+.hungry-loaded-combo h4{
+    text-align:end;
+
+    position: relative;
+    right: 200px;
+    bottom: 30px;
+}
+
+.pizza-bg{
+    position: relative;
+
+    bottom: 630px;
+    left: 770px;
+
+   margin-bottom: -650px;
+}
+
+.pizzabutton button{
+    background-color: rgb(253, 83, 31);
+
+    height: 90px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+
+    border-color:#ff0606;
+    border-width: 8px;
+    border-radius: 10px;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+    position: relative;
+    left: 960px;
+    bottom: 310px;
+
+}
+
+.pizzabutton button:hover{
+    background-color: rgb(255, 8, 0);
+    cursor: pointer;
+}
+ 
+/*drinks and desserts*/
+
+.dessert-background{
+        background-color: rgb(255, 255, 255);
+        
+        border-radius: 7px;
+    
+        width: 350px;
+        height: 470px;
+        display: inline-block;
+    
+        box-shadow: 0 1px 1px 0 rgb(174, 70, 14), 0 2px 3px 0 rgb(255, 98, 0);
+}
+
+.brownie-dessert h2 {
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+ 
+.brownie-dessert img{
+    position: relative;
+    bottom: 20px;
+
+    transform: rotate(-8deg);
+    padding: 5px;
+}
+
+.brownie-dessert p{
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding: 5px;
+
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+
+}
+
+.brownie-dessert h3{
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom: 55px;
+    right: 105px;
+}
+
+.brownie-dessert h4{
+    text-align:end;
+
+    position: relative;
+    right: 190px;
+    bottom: 20px;
+}
+
+/*ice creams*/
+.icecream-background{
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 7px;
+
+    width: 350px;
+    height: 590px;
+    display: inline-block;
+
+    box-shadow: 0 1px 1px 0 rgb(174, 70, 14), 0 2px 3px 0 rgb(255, 98, 0);
+}
+
+.ice-cream-cone h2 {
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+ 
+.ice-cream-cone img{
+    position: relative;
+
+    left: 40px;
+    bottom: 20px;
+
+    padding: 5px;
+}
+
+.ice-cream-cone p{
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding: 10px;
+    padding-right: 20px;
+
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+
+}
+
+.ice-cream-cone h3{
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom: 55px;
+    right: 105px;
+}
+
+.ice-cream-cone h4{
+    text-align:end;
+
+    position: relative;
+    right: 190px;
+    bottom: 20px;
+}
+
+/*cold drinks*/
+.colddrink-background{
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 7px;
+
+    width: 350px;
+    height: 440px;
+    display: inline-block;
+
+    box-shadow: 0 1px 1px 0 rgb(174, 70, 14), 0 2px 3px 0 rgb(255, 98, 0);
+}
+  
+.cold-drinks-can-bottle h2 {
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+ 
+.cold-drinks-can-bottle img{
+    position: relative;
+
+    left: 30px;
+    bottom: 20px;
+
+    padding: 5px;
+}
+
+.cold-drinks-can-bottle p{
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding: 10px;
+    padding-right: 20px;
+
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+
+}
+
+.cold-drinks-can-bottle h3{
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom: 55px;
+    right: 105px;
+}
+
+.cold-drinks-can-bottle h4{
+    text-align:end;
+
+    position: relative;
+    right: 190px;
+    bottom: 20px;
+}
+
+.desdrink-bg{
+    position: relative;
+
+    bottom: 200px;
+    left: 400px;
+
+    rotate: -2deg;
+    margin-bottom: -230px;
+   
+}
+
+.desdrinkbutton button{
+    background-color: rgb(253, 83, 31);
+
+    height: 90px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+
+    border-color:#ff0606;
+    border-width: 8px;
+    border-radius: 10px;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+    position: relative;
+    left: 660px;
+    bottom: 220px;
+
+}
+ 
+.desdrinkbutton button:hover{
+    background-color: rgb(255, 8, 0);
+    cursor: pointer;
+}
+
+
+/*Book your party*/
+
+.party-section {
+    background-image: url(Images/61TaBPf2STL.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*Creates scrolling effect*/
+    background-position: center;
+    background-size: cover;
+
+    padding: 40px;
+    text-align: center;
+
+    margin-bottom: 120px;
+}
+
+
+
+.party-section img{
+    position: relative;
+
+    right: 30px;
+    top: 600px;
+
+    margin-top: -650px;
+}
+
+.party-container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+
+    position: relative;
+    left:10px;
+}
+
+.party-container h2 {
+    color: #000000;
+}
+
+.party-container p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    font-size: large;
+}
+
+.party-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.party-form label {
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.party-form input, .party-form select, .party-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.book-btn {
+    background: #ff6600;
+    color: white;
+    font-size: 15px;
+
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.book-btn:hover{
+        background-color: rgb(255, 8, 0);
+        cursor: pointer;
+}
+
+.contact-info {
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*DELIVERY*/
+.delivery-options{
+    background: #ffffff;
+    background-image: url(Images/city-life-template-vector-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+   
+
+    margin-bottom: 100px ;  
+}
+
+
+.delivery-options img{
+    position: relative;
+    top: 140px;
+
+    margin-bottom: -250px;
+}
+
+.delivery-options h2{
+    border-radius: 5px;
+
+    margin-left: 10px;
+    font-size: 50px;
+    position: relative;
+
+    bottom: 140px;
+    left: 10px;
+
+    margin-bottom: -10px;
+}
+
+.delivery-options .speech-bubble-h2 {
+    position: relative;
+    left:170px;
+    bottom: 130px;
+
+    background: #ff0000;
+    border-radius: 0.4em;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 80px;
+
+  }
+  
+  .delivery-options .speech-bubble-h2::after {
+    content: '';
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: #ff0000;
+  margin-left: -10px;
+  }
+
+
+
+
+.delivery-options p{
+    border-radius: 5px;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 26px;
+    padding: 10px;
+
+    position: relative;
+    bottom: 260px;
+    left: 200px;
+
+    
+
+}
+
+.delivery-options .speech-bubble-left {
+    position: relative;
+    left:500px;
+    bottom: 100px;
+
+    background: #ff690c;
+    border-radius: 0.4em;
+    padding: 20px;
+    color: white;
+    width: 700px;
+    height: 300px;
+
+  }
+  
+  .delivery-options .speech-bubble-left::after {
+    content: '';
+  position: absolute;
+  top: 17px;
+  right: 698px;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-right-color: #ff690c;
+  border-left: 0;
+  margin-top: -10px;
+  margin-left: -10px;
+  }
+
+
+  /*CALL NOW info delivery*/
+  .delivery-options .speech-bubble {
+    position: relative;
+    bottom: 80px;
+    left:500px;
+
+    background: #ff0c0c;
+    border-radius: 0.4em;
+    padding: 10px;
+    color: white;
+    width: 600px;
+    height: 50px;
+
+    
+  }
+
+
+
+/*Reviews*/
+.display-grids-rev{
+    display:grid;
+    grid-template-columns: 35% 35% 35%;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+
+/*Contact Form styling*/
+.contact-info-footer{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 173, 42);
+    box-shadow: 0px 0px 10px 0px #666;
+
+    margin: 30px;
+
+    position: relative;
+    left: 100px;
+
+    margin-bottom: 110px;
+}
+
+.contact-map{
+    width: 100%;
+    height: auto;
+    flex: 50%
+}
+
+.contact-map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-form{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    padding: 30px;
+
+}
+
+.contact-form h5{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 30px;
+
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-form-txt {
+    width: 100%;
+    height: 40px;
+    color: black;
+    border: 1px solid #666;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.contact-form-txt::placeholder{
+    color: #666;
+}
+
+.contact-form-txtarea {
+    width: 100%;
+    height: 130px;
+    color: rgb(75, 59, 59);
+    border: 1px solid #666;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.contact-form-txtarea::placeholder{
+    color: #666;
+}
+
+.contact-form-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: #f12c09;
+    color: aliceblue;
+    text-transform: uppercase;
+    padding: 10px 0 ;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.contact-form-btn:hover{
+        background-color: rgb(188, 10, 4);
+        cursor: pointer;
+}
+
+/*FOOTER*/
+#site-footer {
+    background-color: rgb(227, 20, 20); 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.footer-content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space out sections */
+    padding: 20px; /* Padding for the content */
+}
+
+.footer-section {
+    flex: 1; /* Allow sections to grow equally */
+    margin: 0 20px; /* Margin between sections */
+}
+
+.footer-section h2 {
+    margin-bottom: 10px; 
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0; 
+}
+
+.footer-section ul li {
+    margin: 5px 0; /* Space between list items */
+}
+
+.footer-section a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-section a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.footer-bottom {
+    margin-top: 20px; 
+}
+
+.socials {
+    margin-top: 10px; 
+}
+
+.socials a {
+    margin: 0 10px; 
+    color: white; 
+}
+
+
+/*Enddddddd*/
+
+
+
+
+
