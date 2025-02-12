@@ -1098,6 +1098,21 @@ position: relative;
         bottom: 140px;
     
     }
+
+    .desdrink-bg{
+  display: none;
+       
+    }
+    
+    .desdrinkbutton button{
+        height: 80px; /* Adjust button height for tablets */
+        font-size: 24px; /* Adjust font size for tablets */
+
+        position: relative;
+        left: 50px;
+        bottom: 20px;
+    
+    }
    
 }
 
@@ -1122,7 +1137,7 @@ position: relative;
     }
 
     
-    .pizza-bg{
+    .pizza-bg img{
         width: 300px;
         height: 300px; /* Adjust max width for tablets */
         margin: 10px aut0;/* Adjust margin for tablets */
@@ -1360,6 +1375,97 @@ position: relative;
 
 
 
+/* Media Queries for Tablets and Phones */
+
+/* For tablets (max-width: 900px) */
+@media (max-width: 768px) {
+    .delivery-options {
+        margin-bottom: 50px; /* Reduce margin for tablets */
+    }
+
+    .delivery-options img {
+        top: 80px; /* Adjust image position */
+        margin-bottom: -150px; /* Adjust margin */
+    }
+
+    .delivery-options h2 {
+        font-size: 40px; /* Smaller font size for tablets */
+        bottom: 80px; /* Adjust position */
+        left: 5px; /* Adjust position */
+    }
+
+    .delivery-options .speech-bubble-h2 {
+        left: 20px; /* Adjust position */
+        width: 90%; /* Make it responsive */
+        height: auto; /* Allow height to adjust */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .delivery-options p {
+        left: 20px; /* Adjust position */
+        bottom: 150px; /* Adjust position */
+        font-size: 20px; /* Smaller font size */
+    }
+
+    .delivery-options .speech-bubble-left {
+        left: 20px; /* Adjust position */
+        width: 90%; /* Make it responsive */
+        height: auto; /* Allow height to adjust */
+    }
+
+    .delivery-options .speech-bubble {
+        left: 20px; /* Adjust position */
+        width: 90%; /* Make it responsive */
+    }
+}
+
+/* For phones (max-width: 600px) */
+@media (max-width: 480px) {
+    .delivery-options {
+        margin-bottom: 30px; /* Further reduce margin for phones */
+    }
+
+    .delivery-options img {
+    
+        top: 50px; /* Further adjust image position */
+        margin-bottom: -100px; /* Further adjust margin */
+    }
+
+    .delivery-options #delguy{
+       display: none;
+    }
+
+    .delivery-options h2 {
+        font-size: 30px; /* Smaller font size for phones */
+        bottom: 50px; /* Adjust position */
+        left: 0; /* Center it */
+    }
+
+    .delivery-options .speech-bubble-h2 {
+        left: 10px; /* Adjust position */
+        width: 95%; /* Make it responsive */
+        height: auto; /* Allow height to adjust */
+        padding: 8px; /* Adjust padding */
+    }
+
+    .delivery-options p {
+        left: 10px; /* Adjust position */
+        bottom: 100px; /* Adjust position */
+        font-size: 18px; /* Smaller font size */
+    }
+
+    .delivery-options .speech-bubble-left {
+        left: 10px; /* Adjust position */
+        width: 95%; /* Make it responsive */
+        height: auto; /* Allow height to adjust */
+    }
+
+    .delivery-options .speech-bubble {
+        left: 10px; /* Adjust position */
+        width: 95%; /* Make it responsive */
+    }
+}
+
 /*Reviews*/
 .display-grids-rev{
     display:grid;
@@ -1372,6 +1478,25 @@ position: relative;
     margin-bottom: 150px;
 }
 
+/*TABLET*/
+@media (max-width: 768px) {
+    .display-grids-rev{: 
+        display: flex;
+      flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+     justify-content: space-between; /* Space out items */
+}
+
+}
+
+/*PHONE*/
+@media (max-width: 480px) {
+    .display-grids-rev{
+        display: flex;
+         flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+        justify-content: space-between; /* Space out items */
+}
+
+    }
 
 /*Contact Form styling*/
 .contact-info-footer{
@@ -1469,6 +1594,22 @@ position: relative;
         cursor: pointer;
 }
 
+
+/*TABLET*/
+@media (max-width: 768px) {
+    .contact-info-footer {
+        justify-self: flex-start;
+    }
+}
+
+/*PHONE*/
+@media (max-width: 480px) {
+    .contact-info-footer {
+        justify-self: flex-start;
+    }
+}
+
+
 /*FOOTER*/
 #site-footer {
     background-color: rgb(227, 20, 20); 
@@ -1523,6 +1664,61 @@ position: relative;
     margin: 0 10px; 
     color: white; 
 }
+
+/* Media Queries for Footer */
+
+/* For tablets (max-width: 900px) */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; /* Stack sections vertically */
+        align-items: center; /* Center align sections */
+    }
+
+    .footer-section {
+        margin: 10px 0; /* Reduce margin between sections */
+        text-align: center; /* Center text */
+    }
+
+    .footer-section h2 {
+        font-size: 20px; /* Adjust font size for headings */
+    }
+
+    .footer-section ul li {
+        margin: 3px 0; /* Reduce space between list items */
+    }
+
+    .socials {
+        margin-top: 10px; 
+    }
+
+    .socials a {
+        margin: 0 5px; /* Reduce margin for social links */
+    }
+}
+
+/* For phones (max-width: 600px) */
+@media (max-width: 480px) {
+    .footer-content {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .footer-section {
+        margin: 5px 0; /* Further reduce margin between sections */
+    }
+
+    .footer-section h2 {
+        font-size: 18px; /* Smaller font size for headings */
+    }
+
+    .footer-section ul li {
+        margin: 2px 0; /* Further reduce space between list items */
+    }
+
+    .socials a {
+        margin: 0 3px; /* Further reduce margin for social links */
+    }
+}
+
 
 
 /*Enddddddd*/
