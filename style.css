@@ -8,10 +8,17 @@
     box-sizing: border-box;
 }
 
+
+
+
 /*animation1 slide-burger-everythingimg*/
 .container{
-    overflow: hidden;
-    width: 10%;
+    /*overflow: hidden;
+    width: 10%;*/
+
+    width: 100%; /* Make the container full width */
+    max-width: 800px; /* Set a max width for larger screens */
+    margin: auto; /* Center the container */
 }
 
 .slide-burger-everything{
@@ -21,6 +28,11 @@
 
 }
 
+.slide-burger-everything img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+}
 
 @keyframes slide-in {
     from {
@@ -31,13 +43,38 @@
     }
 }
 
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 50%; /* Adjust width for tablets */
+    }
+
+    .slide-burger-everything {
+        animation: slide-in 2s forwards; 
+
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%; 
+    }
+
+    .slide-burger-everything {
+        animation: slide-in 1.5s forwards;
+        margin-bottom: 100px;
+    }
+}
+
+
 #intro{
     background-color: #ffffff;
     padding: 18px;
     border-radius: 7px;
 
     color: rgb(250, 74, 21);
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: left;
 
     position: relative;
@@ -46,6 +83,94 @@
 
     margin-bottom: -320px;
 
+}
+
+
+#nav-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(253, 83, 31);
+
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the nav items */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */ 
+
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#nav-menu li{
+    float: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#nav-menu li a{
+    display: block;
+
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    padding: 10px 30px 10px;
+    
+
+    text-decoration: none;
+}
+
+#nav-menu li a:hover{
+    background-color: rgb(237, 126, 92);
+    cursor: pointer; 
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    /* Adjustments for tablets */
+    #intro {
+        font-size: 30px; /* Smaller font size */
+        padding: 15px; /* Adjust padding */
+        margin: 20px; /* Center the intro section */
+        left: 0; /* Remove left positioning */
+        bottom: 0; /* Remove bottom positioning */
+    }
+
+    #nav-menu {
+        padding: 5px; /* Adjust padding */
+    }
+
+    #nav-menu li {
+        float: none; /* Stack items vertically */
+        text-align: center; /* Center align text */
+        margin: 5px 0; /* Add margin for spacing */
+    }
+
+    #nav-menu li a {
+        font-size: 20px; /* Smaller font size */
+        padding: 10px 20px; /* Adjust padding */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjustments for mobile */
+    #intro {
+        font-size: 24px; 
+        padding: 10px; 
+        margin: 10px; 
+        left: 0; 
+        bottom: 0;
+    }
+
+    #nav-menu li {
+        margin: 2px 0; 
+    }
+
+    #nav-menu li a {
+        font-size: 18px; 
+        padding: 8px 15px; 
+    }
 }
 
 
@@ -58,6 +183,28 @@ body{
 
     overflow-x: hidden;
 }
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    /* Adjustments for tablets */
+    body {
+        background-attachment: scroll; /* Disable fixed background for tablets */
+        background-size: cover; /* Keep cover for tablets */
+
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjustments for mobile */
+    body {
+        background-attachment: scroll; /* Disable fixed background for mobile */
+        background-size: cover; /* Keep cover for mobile */
+        background-position: center; /* Center the background */
+
+    }
+}
+
 
 h1, h2{
     color: rgb(255, 255, 255);
@@ -114,40 +261,38 @@ h3, h4{
     text-align: center;
 }
 
-#nav-menu{
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    overflow: hidden;
-    background-color: rgb(253, 83, 31);
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 40px; /* Adjust font size for tablets */
+    }
 
-    margin-top: 20px;
-    margin-bottom: 5px;
+    h3, h4 {
+        font-size: 24px; /* Adjust font size for tablets */
+    }
+
+    .heading-bg {
+        padding: 20px; /* Adjust padding for tablets */
+    }
+
+
 }
 
-#nav-menu li{
-    float: left;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 30px; /* Adjust font size for mobile */
+    }
 
+    h3, h4 {
+        font-size: 20px; /* Adjust font size for mobile */
+    }
+
+    .heading-bg {
+        padding: 15px; /* Adjust padding for mobile */
+    }
 }
 
-#nav-menu li a{
-    display: block;
 
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-
-    padding: 10px 30px 10px;
-    
-
-    text-decoration: none;
-}
-
-#nav-menu li a:hover{
-    background-color: rgb(237, 126, 92);
-    cursor: pointer; 
-}
 
 
 /*Todays Specials Menu Styling*/
@@ -167,6 +312,7 @@ h3, h4{
 
 .display-flex1{
     display: flex;
+   
 }
 
 .display-flex1 > div{
@@ -175,6 +321,34 @@ h3, h4{
 
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .display-flex1{
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+    .display-flex1 > div{
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .display-flex1{
+        display: flex;
+       flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    }
+
+    .display-flex1 > div{
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
 }
 
 
@@ -328,18 +502,18 @@ position: relative;
    
     overflow: hidden;
     background-color: rgb(253, 83, 31);
-
     margin-top: 20px;
+
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the menu items */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 #food-nav-menu li{
     float: left;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-   
-
-    margin-right: 50px; 
-    margin-left: 40px;
+    margin: 0 20px; /* Adjust margin for spacing */
 
 }
 
@@ -364,6 +538,7 @@ position: relative;
 
 .display-flex2{
     display: flex;
+  
 }
 
 .display-flex2 > div{
@@ -371,6 +546,53 @@ position: relative;
     margin:20px;
 
 }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .display-flex2 {
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+        justify-content: space-between; /* Space out items */
+    }
+
+    #food-nav-menu li {
+        margin: 0 10px; /* Reduce margin for tablets */
+    }
+
+    #food-nav-menu li a {
+        font-size: 20px; /* Adjust font size for tablets */
+        padding: 8px 10px; /* Adjust padding for tablets */
+    }
+
+    .display-flex2 > div {
+        width: 45%; /* Adjust width for tablets */
+
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .display-flex2 {
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+        justify-content: space-between; /* Space out items */
+    }
+
+    #food-nav-menu li {
+        margin: 0 5px; /* Further reduce margin for mobile */
+    }
+
+    #food-nav-menu li a {
+        font-size: 18px; /* Adjust font size for mobile */
+        padding: 5px 8px; /* Adjust padding for mobile */
+    }
+
+    .display-flex2 > div {
+        width: 100%; /* Full width for mobile */
+        margin: 10px 0; /* Adjust margin for mobile */
+    }
+}
+
 
 /*chicken burger and chips*/
 .chicburger h2{
@@ -462,6 +684,7 @@ position: relative;
 }
 
 .burger-bg{
+
     position: relative;
 
     top: 85px;
@@ -834,6 +1057,90 @@ position: relative;
 .desdrinkbutton button:hover{
     background-color: rgb(255, 8, 0);
     cursor: pointer;
+}
+
+/*TABLET*/
+@media (max-width: 768px) {
+    .burger-bg img{
+        width: 350px;
+        height: 350px; /* Adjust max width for tablets */
+        margin: 10px auto;/* Adjust margin for tablets */
+
+        position: relative;
+        left: 40px;
+    }
+
+    .burgerbutton button {
+        height: 80px; /* Adjust button height for tablets */
+        font-size: 24px; /* Adjust font size for tablets */
+
+     
+        left: 50px;
+        bottom: 50px;
+    }
+  
+    .pizza-bg{
+        width: 350px;
+        height: 350px; /* Adjust max width for tablets */
+        margin: 10px auto;/* Adjust margin for tablets */
+
+        position: relative;
+        left: 10px;
+        bottom: 100px;
+    }
+    
+    .pizzabutton button{
+        height: 80px; /* Adjust button height for tablets */
+        font-size: 24px; /* Adjust font size for tablets */
+
+        position: relative;
+        left: 70px;
+        bottom: 140px;
+    
+    }
+   
+}
+
+/*PHONE*/
+@media (max-width: 480px) {
+    .burger-bg img{
+        width: 350px;
+        height: 350px; /* Adjust max width for tablets */
+        margin: 10px auto;/* Adjust margin for tablets */
+        
+        position: relative;
+        left: 40px;
+        margin: 5px auto; /* Adjust margin for mobile */
+    }
+
+    .burgerbutton button {
+        height: 60px; /* Adjust button height for mobile */
+        font-size: 20px; /* Adjust font size for mobile */
+        position: relative;
+        left: 55px;
+        bottom: 120px;
+    }
+
+    
+    .pizza-bg{
+        width: 300px;
+        height: 300px; /* Adjust max width for tablets */
+        margin: 10px aut0;/* Adjust margin for tablets */
+
+        position: relative;
+        left: 10px;
+        bottom: 100px;
+    }
+    
+    .pizzabutton button{
+        height: 80px; /* Adjust button height for tablets */
+        font-size: 24px; /* Adjust font size for tablets */
+
+        position: relative;
+        left: 70px;
+        bottom: 140px;
+    
+    }
 }
 
 
