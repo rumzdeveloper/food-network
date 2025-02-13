@@ -8,6 +8,83 @@
     box-sizing: border-box;
 }
 
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+
+
+[class*="col-"]{
+    width:100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .col-t-1 {width: 8.33%;}
+    .col-t-2 {width: 16.66%;}
+    .col-t-3 {width: 25%;}
+    .col-t-4 {width: 33.33%;}
+    .col-t-5 {width: 41.66%;}
+    .col-t-6 {width: 50%;}
+    .col-t-7 {width: 58.33%;}
+    .col-t-8 {width: 66.66%;}
+    .col-t-9 {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .col-tl-1 {width: 8.33%;}
+    .col-tl-2 {width: 16.66%;}
+    .col-tl-3 {width: 25%;}
+    .col-tl-4 {width: 33.33%;}
+    .col-tl-5 {width: 41.66%;}
+    .col-tl-6 {width: 50%;}
+    .col-tl-7 {width: 58.33%;}
+    .col-tl-8 {width: 66.66%;}
+    .col-tl-9 {width: 75%;}
+    .col-tl-10 {width: 83.33%;}
+    .col-tl-11 {width: 91.66%;}
+    .col-tl-12 {width: 100%;}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+
+}
 
 
 
@@ -43,6 +120,7 @@
     }
 }
 
+/*Media Query1*/
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .container {
@@ -126,7 +204,7 @@
 }
 
 
-/* Media Queries for Responsiveness */
+/* Media Queries for Responsiveness 2 */
 @media (max-width: 768px) {
     /* Adjustments for tablets */
     #intro {
@@ -174,6 +252,8 @@
 }
 
 
+
+
 body{
     background-image: url(Images/abstract-orange-gradient-vertical-background_7954-20814.avif);
     background-repeat: no-repeat;
@@ -185,7 +265,7 @@ body{
 }
 
 
-/* Media Queries for Responsiveness */
+/* Media Queries for Responsiveness 3*/
 @media (max-width: 768px) {
     /* Adjustments for tablets */
     body {
@@ -204,6 +284,7 @@ body{
 
     }
 }
+
 
 
 h1, h2{
@@ -261,7 +342,7 @@ h3, h4{
     text-align: center;
 }
 
-/* Media Queries for Responsiveness */
+/* Media Queries for Responsiveness 4 */
 @media (max-width: 768px) {
     h1, h2 {
         font-size: 40px; /* Adjust font size for tablets */
@@ -295,6 +376,8 @@ h3, h4{
 
 
 
+
+
 /*Todays Specials Menu Styling*/
 
 .background-specials {
@@ -324,9 +407,10 @@ h3, h4{
 }
 
 
-/* Media Queries for Responsiveness */
+/* Media Queries for Responsiveness 5 */
 @media (max-width: 768px) {
     .display-flex1{
+        margin-left: -30px;    
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
@@ -350,6 +434,7 @@ h3, h4{
         margin-bottom: 5px;
     }
 }
+
 
 
 /*LAYS BEEF BURGER*/
@@ -547,7 +632,7 @@ position: relative;
 
 }
 
-/* Media Queries for Responsiveness */
+/* Media Queries for Responsiveness 6 */
 @media (max-width: 768px) {
     .display-flex2 {
         display: flex;
@@ -592,6 +677,7 @@ position: relative;
         margin: 10px 0; /* Adjust margin for mobile */
     }
 }
+
 
 
 /*chicken burger and chips*/
@@ -1059,7 +1145,8 @@ position: relative;
     cursor: pointer;
 }
 
-/*TABLET*/
+/*TABLET 7*/
+/*TABLET 7*/
 @media (max-width: 768px) {
     .burger-bg img{
         width: 350px;
@@ -1157,6 +1244,7 @@ position: relative;
     
     }
 }
+
 
 
 /*Book your party*/
@@ -1375,8 +1463,7 @@ position: relative;
 
 
 
-/* Media Queries for Tablets and Phones */
-
+/* Media Queries for Tablets and Phones 8 */
 /* For tablets (max-width: 900px) */
 @media (max-width: 768px) {
     .delivery-options {
@@ -1389,14 +1476,15 @@ position: relative;
     }
 
     .delivery-options h2 {
-        font-size: 40px; /* Smaller font size for tablets */
+        font-size: 20px; /* Smaller font size for tablets */
         bottom: 80px; /* Adjust position */
         left: 5px; /* Adjust position */
     }
 
     .delivery-options .speech-bubble-h2 {
         left: 20px; /* Adjust position */
-        width: 90%; /* Make it responsive */
+        bottom: 10px;
+        width: 50%; /* Make it responsive */
         height: auto; /* Allow height to adjust */
         padding: 10px; /* Adjust padding */
     }
@@ -1409,13 +1497,15 @@ position: relative;
 
     .delivery-options .speech-bubble-left {
         left: 20px; /* Adjust position */
-        width: 90%; /* Make it responsive */
+        bottom: 10px;
+        width: 50%; /* Make it responsive */
         height: auto; /* Allow height to adjust */
     }
 
     .delivery-options .speech-bubble {
         left: 20px; /* Adjust position */
-        width: 90%; /* Make it responsive */
+        bottom: 10px;
+        width: 40%; /* Make it responsive */
     }
 }
 
@@ -1466,6 +1556,10 @@ position: relative;
     }
 }
 
+
+
+
+
 /*Reviews*/
 .display-grids-rev{
     display:grid;
@@ -1478,13 +1572,19 @@ position: relative;
     margin-bottom: 150px;
 }
 
-/*TABLET*/
+/*TABLET 9*/
+/*TABLET 9*/
 @media (max-width: 768px) {
-    .display-grids-rev{: 
+    .display-grids-rev{ 
         display: flex;
       flex-wrap: wrap; /* Allow items to wrap on smaller screens */
      justify-content: space-between; /* Space out items */
 }
+
+    .display-grids-rev img{
+        width: 80%;
+        height: auto;
+    }
 
 }
 
@@ -1495,8 +1595,13 @@ position: relative;
          flex-wrap: wrap; /* Allow items to wrap on smaller screens */
         justify-content: space-between; /* Space out items */
 }
-
+     
+    .display-grids-rev img{
+        width: 80%;
+        height: auto;
     }
+}
+
 
 /*Contact Form styling*/
 .contact-info-footer{
@@ -1595,19 +1700,20 @@ position: relative;
 }
 
 
-/*TABLET*/
-@media (max-width: 768px) {
+/*TABLET 10*/
+@media only screen and (max-width: 768px) {
+    .contact-info-footer {
+      margin-left: -70px;
+    }
+}
+
+/*PHONE*/
+@media only screen and (max-width: 480px) {
     .contact-info-footer {
         justify-self: flex-start;
     }
 }
 
-/*PHONE*/
-@media (max-width: 480px) {
-    .contact-info-footer {
-        justify-self: flex-start;
-    }
-}
 
 
 /*FOOTER*/
@@ -1665,10 +1771,10 @@ position: relative;
     color: white; 
 }
 
-/* Media Queries for Footer */
 
+/* Media Queries for Footer 11*/
 /* For tablets (max-width: 900px) */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .footer-content {
         flex-direction: column; /* Stack sections vertically */
         align-items: center; /* Center align sections */
@@ -1697,7 +1803,7 @@ position: relative;
 }
 
 /* For phones (max-width: 600px) */
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .footer-content {
         padding: 10px; /* Reduce padding for smaller screens */
     }
@@ -1718,6 +1824,9 @@ position: relative;
         margin: 0 3px; /* Further reduce margin for social links */
     }
 }
+
+
+
 
 
 
