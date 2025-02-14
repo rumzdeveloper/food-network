@@ -205,6 +205,7 @@ body{
         background-attachment: scroll; /* Disable fixed background for tablets */
         background-size: cover; /* Keep cover for tablets */
 
+        overflow-x: hidden;
     }
 }
 
@@ -215,6 +216,7 @@ body{
         background-size: cover; /* Keep cover for mobile */
         background-position: center; /* Center the background */
 
+        overflow-x: hidden;
     }
 }
 
