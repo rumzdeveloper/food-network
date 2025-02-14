@@ -341,52 +341,70 @@ h3, h4{
     margin-bottom: 50px;
 }
 
+/*like my pc*/
 @media (max-width: 1536px){
     .background-specials{
-        background-color: rgb(255, 255, 255);
+    
         max-width: 1280px;
 
     }
+
 }
 
 @media (max-width: 1280px){
     .background-specials{
-        background-color: rgb(255, 255, 255);
+       
         max-width: 1024px;
 
     }
+    
+
 }
 
 
 @media (max-width: 1024px){
     .background-specials{
-        background-color: rgb(255, 255, 255);
+     
         max-width: 768px;
 
     }
+  
+    
 }
 
 @media (max-width: 768px){
     .background-specials{
         background-color: rgb(255, 255, 255);
+        border: none;
         max-width: 640px;
 
     }
+    
 }
 
 @media (max-width: 640px){
     .background-specials{
         background-color: rgb(255, 255, 255);
+        border: none;
         max-width: 475px;
 
     }
+    .display-flex1{  
+        display: flex;
+        flex-wrap: wrap; 
+    } 
 }
 
 @media (max-width: 475px){
     .background-specials{
         background-color: rgb(255, 255, 255);
+        border: none;
         width:100%;
 
+    }
+    .display-flex1{  
+        display: flex;
+        flex-wrap: wrap; 
     }
 }
 
