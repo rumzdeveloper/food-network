@@ -373,29 +373,12 @@ h3, h4{
 }
 
 @media (max-width: 768px){
-    .lays-burger,
-    .special-loaded-fries,
-    .epic-shakes
-    {
-        background-color: rgb(255, 255, 255);
-        border: none;
-        box-shadow: none; 
-        max-width: 640px;
-
-    }
+   
     
 }
 
 @media (max-width: 640px){
-    .lays-burger,
-    .special-loaded-fries,
-    .epic-shakes{
-        background-color: rgb(255, 255, 255);
-        border: none;
-        box-shadow: none; 
-        max-width: 475px;
-
-    }
+    
     .display-flex1{  
         display: flex;
         flex-wrap: wrap; 
@@ -403,15 +386,7 @@ h3, h4{
 }
 
 @media (max-width: 475px){
-    .lays-burger,
-    .special-loaded-fries,
-    .epic-shakes{
-        background-color: rgb(255, 255, 255);
-        border: none;
-        box-shadow: none; 
-        width:100%;
-
-    }
+    
     .display-flex1{  
         display: flex;
         flex-wrap: wrap; 
