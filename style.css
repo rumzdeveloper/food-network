@@ -321,7 +321,7 @@ h3, h4{
     border-radius: 7px;
 
     width: 350px;
-    height: 520px;
+    height: auto;
     display: inline-block;
 
     box-shadow: 0 1px 1px 0 rgb(174, 70, 14), 0 2px 3px 0 rgb(255, 98, 0);
@@ -341,13 +341,61 @@ h3, h4{
     margin-bottom: 50px;
 }
 
+@media (max-width: 1536px){
+    .background-specials{
+        background-color: rgb(255, 255, 255);
+        max-width: 1280px;
 
-/* Media Queries for Responsiveness 5 */
+    }
+}
+
+@media (max-width: 1280px){
+    .background-specials{
+        background-color: rgb(255, 255, 255);
+        max-width: 1024px;
+
+    }
+}
+
+
+@media (max-width: 1024px){
+    .background-specials{
+        background-color: rgb(255, 255, 255);
+        max-width: 768px;
+
+    }
+}
+
+@media (max-width: 768px){
+    .background-specials{
+        background-color: rgb(255, 255, 255);
+        max-width: 640px;
+
+    }
+}
+
+@media (max-width: 640px){
+    .background-specials{
+        background-color: rgb(255, 255, 255);
+        max-width: 475px;
+
+    }
+}
+
+@media (max-width: 475px){
+    .background-specials{
+        background-color: rgb(255, 255, 255);
+        width:100%;
+
+    }
+}
+
+/* Media Queries for Responsiveness 5 
 @media (max-width: 768px) {
     .display-flex1{
         margin-left: -30px;    
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    flex-wrap: wrap; 
 }
 
     .display-flex1 > div{
@@ -361,7 +409,7 @@ h3, h4{
 @media (max-width: 480px) {
     .display-flex1{
         display: flex;
-       flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+       flex-wrap: wrap;
     }
 
     .display-flex1 > div{
@@ -370,7 +418,7 @@ h3, h4{
     }
 }
 
-
+*/
 
 /*LAYS BEEF BURGER*/
 .lays-burger > h2{
@@ -406,6 +454,8 @@ h3, h4{
     position: relative;
     bottom:50px;
     right:120px;
+
+    margin-bottom: -30px;
 }
 
 .lays-burger > h4{
