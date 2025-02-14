@@ -376,6 +376,7 @@ h3, h4{
     .background-specials{
         background-color: rgb(255, 255, 255);
         border: none;
+        box-shadow: none; 
         max-width: 640px;
 
     }
@@ -386,6 +387,7 @@ h3, h4{
     .background-specials{
         background-color: rgb(255, 255, 255);
         border: none;
+        box-shadow: none; 
         max-width: 475px;
 
     }
@@ -399,6 +401,7 @@ h3, h4{
     .background-specials{
         background-color: rgb(255, 255, 255);
         border: none;
+        box-shadow: none; 
         width:100%;
 
     }
