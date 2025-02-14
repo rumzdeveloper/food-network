@@ -150,7 +150,8 @@
    
 
     #nav-menu {
-        padding: 5px; /* Adjust padding */
+        padding: 5px; /* Adjust padding */'
+        width: 100%;
     }
 
     #nav-menu li {
@@ -167,6 +168,11 @@
 
 @media (max-width: 480px) {
     /* Adjustments for mobile */
+
+    #nav-menu {
+        padding: 5px; /* Adjust padding */'
+        width: 100%;
+    }
 
     #nav-menu li {
         margin: 2px 0; 
