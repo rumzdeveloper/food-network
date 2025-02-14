@@ -341,7 +341,7 @@ h3, h4{
     margin-bottom: 50px;
 }
 
-/*like my pc*/
+/*like my pc
 @media (max-width: 1536px){
     .background-specials{
     
@@ -391,9 +391,9 @@ h3, h4{
         display: flex;
         flex-wrap: wrap; 
     }
-}
+}*/
 
-/* Media Queries for Responsiveness 5 
+/*Media Queries for Responsiveness 5 */
 @media (max-width: 768px) {
     .display-flex1{
         margin-left: -30px;    
@@ -421,7 +421,7 @@ h3, h4{
     }
 }
 
-*/
+
 
 /*LAYS BEEF BURGER*/
 .lays-burger > h2{
