@@ -373,7 +373,10 @@ h3, h4{
 }
 
 @media (max-width: 768px){
-    .background-specials{
+    .lays-burger,
+    .special-loaded-fries,
+    .epic-shakes
+    {
         background-color: rgb(255, 255, 255);
         border: none;
         box-shadow: none; 
@@ -384,7 +387,9 @@ h3, h4{
 }
 
 @media (max-width: 640px){
-    .background-specials{
+    .lays-burger,
+    .special-loaded-fries,
+    .epic-shakes{
         background-color: rgb(255, 255, 255);
         border: none;
         box-shadow: none; 
@@ -398,7 +403,9 @@ h3, h4{
 }
 
 @media (max-width: 475px){
-    .background-specials{
+    .lays-burger,
+    .special-loaded-fries,
+    .epic-shakes{
         background-color: rgb(255, 255, 255);
         border: none;
         box-shadow: none; 
