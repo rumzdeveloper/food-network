@@ -15,7 +15,7 @@
     width: 10%;*/
 
     width: 100%; /* Make the container full width */
-    max-width: 800px; /* Set a max width for larger screens */
+    /*max-width: 800px; Set a max width for larger screens */
     margin: auto; /* Center the container */
 }
 
@@ -65,7 +65,7 @@
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .container {
-        width: 50%; /* Adjust width for tablets */
+        width: 30%; /* Adjust width for tablets */
     }
 
     .slide-burger-everything {
@@ -74,18 +74,26 @@
         margin-bottom: 100px;
     }
 
+    .slide-burger-everything img {
+        width: 80%;
+
+        position: relative;
+        left: 10%;
+    }
+
     #intro {
-        font-size: 30px; /* Smaller font size */
+        font-size: 1.5rem; /* Smaller font size */
         padding: 15px; /* Adjust padding */
         margin: 20px; /* Center the intro section */
         left: 0; /* Remove left positioning */
         bottom: 0; /* Remove bottom positioning */
+        margin-bottom: -10%;
     }
 }
 
 @media (max-width: 480px) {
     .container {
-        width: 90%; 
+        width: 30%; 
     }
 
     .slide-burger-everything {
@@ -93,12 +101,22 @@
         margin-bottom: 100px;
     }
 
+    .slide-burger-everything img {
+        width: 60%;
+
+        position: relative;
+        left: 20%;
+    }
+
+
     #intro {
-        font-size: 24px; 
+        font-size: 1rem; 
         padding: 10px; 
         margin: 10px; 
         left: 0; 
         bottom: 0;
+
+        margin-bottom: -10%;
     }
 }
 
