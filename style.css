@@ -327,17 +327,7 @@ h3, h4{
         padding: 15px; /* Adjust padding for mobile */
     }
     
-    .display-flex1{
-        width: 10%;
-        display: flex;
-        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-        justify-content: space-between;
-    }
 
-    .display-flex1 > div{
-         /* Full width for mobile */
-        margin: 10px 0;
-    }
 }
 
 
@@ -568,7 +558,89 @@ position: relative;
     bottom: 8px;
   } 
 
+  @media (max-width: 768px) {
+    .display-flex1 {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
 
+    .display-flex1 > div {
+        width: 80%; /* Make boxes wider on smaller screens */
+        margin: 20px 0; /* Adjust margin */
+    }
+
+    .background-specials {
+        width: 100%; /* Full width for background specials */
+    }
+
+    .lays-burger > h2,
+    .special-loaded-fries > h2,
+    .epic-shakes > h2 {
+        font-size: 30px; /* Smaller font size for headings */
+    }
+
+    .lays-burger > p,
+    .special-loaded-fries > p,
+    .epic-shakes > p {
+        font-size: 16px; /* Smaller font size for paragraphs */
+    }
+
+    .lays-burger > h3,
+    .special-loaded-fries > h3,
+    .epic-shakes > h3 {
+        font-size: 30px; /* Smaller font size for prices */
+    }
+
+    .lays-burger > h4,
+    .special-loaded-fries > h4,
+    .epic-shakes > h4 {
+        font-size: 20px; /* Smaller font size for "only" */
+    }
+}
+
+@media (max-width: 480px) {
+    .display-flex1 > div {
+        width: 90%; /* Make boxes even wider on very small screens */
+    }
+
+    .background-specials img {
+        width: 70%; /* Allow images to scale down */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove bottom space caused by inline-block */
+        margin: 0 auto; /* Center the image */ 
+    }
+
+    .special-loaded-fries > img,
+    .epic-shakes > img{
+        width: 50%;
+        position: relative; /* Keep this for your layout */
+        left: 0; /* Reset left to 0 */
+    }
+
+    .lays-burger > h2,
+    .special-loaded-fries > h2,
+    .epic-shakes > h2 {
+        font-size: 24px; /* Further reduce font size for headings */
+    }
+
+    .lays-burger > p,
+    .special-loaded-fries > p,
+    .epic-shakes > p {
+        font-size: 14px; /* Further reduce font size for paragraphs */
+    }
+
+    .lays-burger > h3,
+    .special-loaded-fries > h3,
+    .epic-shakes > h3 {
+        font-size: 24px; /* Further reduce font size for prices */
+    }
+
+    .lays-burger > h4,
+    .special-loaded-fries > h4,
+    .epic-shakes > h4 {
+        font-size: 18px; /* Further reduce font size for "only" */
+    }
+}
 
 
 
