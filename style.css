@@ -565,7 +565,7 @@ position: relative;
      }
 
     .display-flex1 > div {
-        width: 80%; /* Make boxes wider on smaller screens */
+        width: 70%; /* Make boxes wider on smaller screens */
         margin: 20px 0; /* Adjust margin */
     }
 
@@ -618,7 +618,7 @@ position: relative;
 
 @media (max-width: 480px){
     .display-flex1 > div {
-        width: 45%; /* Adjust width for smaller screens */
+        width: 80%; /* Adjust width for smaller screens */
         margin: 10px; /* Adjust margin */ 
       }
 
