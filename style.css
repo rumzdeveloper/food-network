@@ -562,7 +562,7 @@ position: relative;
     .display-flex1 {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items */
-    }
+     }
 
     .display-flex1 > div {
         width: 80%; /* Make boxes wider on smaller screens */
@@ -573,35 +573,54 @@ position: relative;
         width: 100%; /* Full width for background specials */
     }
 
+    .background-specials img {
+        width: 70%; /* Allow images to scale down */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove bottom space caused by inline-block */
+        margin: 0 auto; /* Center the image */ 
+    }
+
+    .special-loaded-fries > img,
+    .epic-shakes > img{
+        width: 50%;
+        position: relative; /* Keep this for your layout */
+        left: 0; /* Reset left to 0 */
+    }
+
     .lays-burger > h2,
     .special-loaded-fries > h2,
     .epic-shakes > h2 {
-        font-size: 30px; /* Smaller font size for headings */
+        font-size: 2em; /* Smaller font size for headings */
     }
 
     .lays-burger > p,
     .special-loaded-fries > p,
     .epic-shakes > p {
-        font-size: 16px; /* Smaller font size for paragraphs */
+        font-size: 1em; /* Smaller font size for paragraphs */
+        padding: 1em;
     }
 
     .lays-burger > h3,
     .special-loaded-fries > h3,
     .epic-shakes > h3 {
-        font-size: 30px; /* Smaller font size for prices */
+        font-size: 2em; /* Smaller font size for prices */
+        
     }
 
     .lays-burger > h4,
     .special-loaded-fries > h4,
     .epic-shakes > h4 {
-        font-size: 20px; /* Smaller font size for "only" */
+        font-size: 1.5em; /* Smaller font size for "only" */
+        position: relative; /* Keep this for your layout */
+        right: 60%;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px){
     .display-flex1 > div {
-        width: 90%; /* Make boxes even wider on very small screens */
-    }
+        width: 45%; /* Adjust width for smaller screens */
+        margin: 10px; /* Adjust margin */ 
+      }
 
     .background-specials img {
         width: 70%; /* Allow images to scale down */
