@@ -15,19 +15,3 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-function adjustMenuClasses() {
-    const menuItems = document.querySelectorAll('.background-specials');
-    if (window.innerWidth <= 768) {
-        menuItems.forEach(item => {
-            item.classList.remove('background-specials'); // Remove the class
-        });
-    } else {
-        menuItems.forEach(item => {
-            item.classList.add('background-specials'); // Add the class back if needed
-        });
-    }
-}
-
-// Run on load and on resize
-window.addEventListener('load', adjustMenuClasses);
-window.addEventListener('resize', adjustMenuClasses);

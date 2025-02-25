@@ -326,31 +326,20 @@ h3, h4{
     .heading-bg {
         padding: 15px; /* Adjust padding for mobile */
     }
+    
+    .display-flex1{
+        width: 10%;
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+        justify-content: space-between;
+    }
 
-    .background-specials h2, h3, h4{
-        
-    }
-    
-    .dessert-background h2, h3, h4{
-        
-    }
-    
-    .icecream-background  h2, h3, h4{
-        color: rgb(202, 33, 33);
-    
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 30px;
-        text-align: center;
-    }
-    
-    .colddrink-background h2, h3, h4{
-        color: rgb(202, 33, 33);
-    
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 30px;
-        text-align: center;
+    .display-flex1 > div{
+         /* Full width for mobile */
+        margin: 10px 0;
     }
 }
+
 
 
 
@@ -437,33 +426,6 @@ h3, h4{
     }
 }*/
 
-/*Media Queries for Responsiveness 5 */
-@media (max-width: 768px) {
-    .display-flex1{
-        display: flex;
-        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-        justify-content: space-between;
-}
-
-    .display-flex1 > div{
-         width: 45%; 
-    }
-
-}
-
-
-@media (max-width: 480px) {
-    .display-flex1{
-        display: flex;
-        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-        justify-content: space-between;
-    }
-
-    .display-flex1 > div{
-        width: 100%; /* Full width for mobile */
-        margin: 10px 0;
-    }
-}
 
 
 
