@@ -364,60 +364,6 @@ h3, h4{
     margin-bottom: 50px;
 }
 
-/*like my pc
-@media (max-width: 1536px){
-    .background-specials{
-    
-        max-width: 1280px;
-
-    }
-
-}
-
-@media (max-width: 1280px){
-    .background-specials{
-       
-        max-width: 1024px;
-
-    }
-    
-
-}
-
-
-@media (max-width: 1024px){
-    .background-specials{
-     
-        max-width: 768px;
-
-    }
-  
-    
-}
-
-@media (max-width: 768px){
-   
-    
-}
-
-@media (max-width: 640px){
-    
-    .display-flex1{  
-        display: flex;
-        flex-wrap: wrap; 
-    } 
-}
-
-@media (max-width: 475px){
-    
-    .display-flex1{  
-        display: flex;
-        flex-wrap: wrap; 
-    }
-}*/
-
-
-
 
 /*LAYS BEEF BURGER*/
 .lays-burger > h2{
@@ -454,7 +400,7 @@ h3, h4{
     bottom:50px;
     right:120px;
 
-    margin-bottom: -30px;
+    margin-bottom: -1em;
 }
 
 .lays-burger > h4{
@@ -604,7 +550,6 @@ position: relative;
     .special-loaded-fries > h3,
     .epic-shakes > h3 {
         font-size: 2em; /* Smaller font size for prices */
-        
     }
 
     .lays-burger > h4,
@@ -619,7 +564,8 @@ position: relative;
 @media (max-width: 480px){
     .display-flex1 > div {
         width: 80%; /* Adjust width for smaller screens */
-        margin: 10px; /* Adjust margin */ 
+        margin-bottom: 10%; /* Adjust margin */ 
+        margin-top: 6%;
       }
 
     .background-specials img {
@@ -639,25 +585,25 @@ position: relative;
     .lays-burger > h2,
     .special-loaded-fries > h2,
     .epic-shakes > h2 {
-        font-size: 24px; /* Further reduce font size for headings */
+        font-size: 1.6em; /* Further reduce font size for headings */
     }
 
     .lays-burger > p,
     .special-loaded-fries > p,
     .epic-shakes > p {
-        font-size: 14px; /* Further reduce font size for paragraphs */
+        font-size: 1em; /* Further reduce font size for paragraphs */
     }
 
     .lays-burger > h3,
     .special-loaded-fries > h3,
     .epic-shakes > h3 {
-        font-size: 24px; /* Further reduce font size for prices */
+        font-size: 1.5em; /* Further reduce font size for prices */
     }
 
     .lays-burger > h4,
     .special-loaded-fries > h4,
     .epic-shakes > h4 {
-        font-size: 18px; /* Further reduce font size for "only" */
+        font-size: 1.3em; /* Further reduce font size for "only" */
     }
 }
 
@@ -716,54 +662,6 @@ position: relative;
     margin:20px;
 
 }
-
-/* Media Queries for Responsiveness 6 */
-@media (max-width: 768px) {
-    .display-flex2 {
-        display: flex;
-        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-        justify-content: space-between; /* Space out items */
-    }
-
-    #food-nav-menu li {
-        margin: 0 10px; /* Reduce margin for tablets */
-    }
-
-    #food-nav-menu li a {
-        font-size: 20px; /* Adjust font size for tablets */
-        padding: 8px 10px; /* Adjust padding for tablets */
-    }
-
-    .display-flex2 > div {
-        width: 45%; /* Adjust width for tablets */
-
-        
-    }
-}
-
-@media (max-width: 480px) {
-    .display-flex2 {
-        display: flex;
-        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-        justify-content: space-between; /* Space out items */
-    }
-
-    #food-nav-menu li {
-        margin: 0 5px; /* Further reduce margin for mobile */
-    }
-
-    #food-nav-menu li a {
-        font-size: 18px; /* Adjust font size for mobile */
-        padding: 5px 8px; /* Adjust padding for mobile */
-    }
-
-    .display-flex2 > div {
-        width: 100%; /* Full width for mobile */
-        margin: 10px 0; /* Adjust margin for mobile */
-    }
-}
-
-
 
 /*chicken burger and chips*/
 .chicburger h2{
@@ -855,13 +753,19 @@ position: relative;
 }
 
 .burger-bg{
-
     position: relative;
 
     top: 85px;
     right: 30px;
 
     filter: drop-shadow(8px 8px 16px rgba(91, 86, 86, 0.5)); /*Adds a shadow behind img to make it stand out more*/
+   
+}
+
+.burger-bg img{
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevents bottom space in some browsers */
 }
 
 .burgerbutton button{
@@ -879,14 +783,172 @@ position: relative;
     font-size: 30px;
 
     position: relative;
-    left: 910px;
-    bottom: 370px;
+    left: 70%;
+    bottom: 340px;
 }
 
 .burgerbutton button:hover{
     background-color: rgb(255, 8, 0);
     cursor: pointer;
 }
+
+/* Media Queries for Responsiveness 6 */
+@media (max-width: 768px) {
+    #food-nav-menu li {
+        margin: 0 10px; /* Reduce margin for tablets */
+    }
+
+    #food-nav-menu li a {
+        font-size: 20px; /* Adjust font size for tablets */
+        padding: 8px 10px; /* Adjust padding for tablets */
+    }
+
+    .display-flex2 > div {
+        width: 45%; /* Adjust width for tablets */
+
+    }
+
+    .display-flex2 {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+     }
+
+    .display-flex2 > div {
+        width: 70%; /* Make boxes wider on smaller screens */
+        margin: 20px 0; /* Adjust margin */
+    }
+
+    .beef-salad-chips > img{
+        padding: 5%;
+        position: relative; /* Keep this for your layout */
+        left: 0; /* Reset left to 0 */
+      }
+      
+
+    .background-specials {
+        width: 100%; /* Full width for background specials */
+    }
+
+    .background-specials img {
+        width: 70%; /* Allow images to scale down */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove bottom space caused by inline-block */
+        margin: 0 auto; /* Center the image */ 
+    }
+   
+    .background-specials .chicburger > h2,
+    .background-specials .beef-salad-chips > h2 {
+        font-size: 2em; /* Smaller font size for headings */
+    }
+
+    .background-specials .chicburger > p,
+    .background-specials .beef-salad-chips > p {
+        font-size: 1em; /* Smaller font size for paragraphs */
+        padding: 1em;
+    }
+
+    .background-specials .chicburger > h3,
+    .background-specials .beef-salad-chips > h3 {
+        font-size: 2em; /* Smaller font size for prices */
+    }
+
+    .background-specials .chicburger > h4,
+    .background-specials .beef-salad-chips > h4{
+        font-size: 1.5em; /* Smaller font size for "only" */
+        position: relative; /* Keep this for your layout */
+        right: 60%;
+    }
+
+       .burger-bg img{
+           display: none;
+       }
+
+       .burgerbutton {
+        display: flex; /* Use flexbox for alignment */
+        justify-content: center; /* Center the button horizontally */
+        margin-top: 20px; /* Add some space above the button */
+    }
+    
+       .burgerbutton button {
+               height: 3.75em; /* 60px in em */
+               width: 9.375em; /* 150px in em */
+               font-size: 1.25em; /* 20px in em */
+               position: relative;
+               top: -1em;
+               right: 50%;
+           }
+}
+
+@media (max-width: 480px) {
+    #food-nav-menu li {
+        margin: 0 5px; /* Further reduce margin for mobile */
+    }
+
+    #food-nav-menu li a {
+        font-size: 18px; /* Adjust font size for mobile */
+        padding: 5px 8px; /* Adjust padding for mobile */
+    }
+
+    .display-flex2 > div {
+        width: 100%; /* Full width for mobile */
+        margin: 10px 0; /* Adjust margin for mobile */
+    }
+
+
+    .display-flex2 > div {
+        width: 80%; /* Adjust width for smaller screens */
+        margin-bottom: 10%; /* Adjust margin */ 
+        margin-top: 6%;
+      }
+
+      .beef-salad-chips > img{
+        padding: 5%;
+        position: relative; /* Keep this for your layout */
+        left: 0; /* Reset left to 0 */
+      }
+      
+    .background-specials .chicburger > h2,
+    .background-specials .beef-salad-chips > h2 {
+        font-size: 1.6em; /* Further reduce font size for headings */
+    }
+
+    .background-specials .chicburger > p,
+    .background-specials .beef-salad-chips > p {
+        font-size: 1em; /* Further reduce font size for paragraphs */
+    }
+
+    .background-specials .chicburger > h3,
+    .background-specials .beef-salad-chips > h3{
+        font-size: 1.5em; /* Further reduce font size for prices */
+    }
+
+    .background-specials .chicburger > h4,
+    .background-specials .beef-salad-chips > h4{
+        font-size: 1.3em; /* Further reduce font size for "only" */
+    }
+
+    /*.burger-bg{
+     /*display: flex; /* Use flexbox for alignment */
+     /*justify-content: center; /* Center the image horizontally */
+     /*align-items: center; Center the image vertically 
+    }
+    THIS was needed to position img in paretn container*/
+
+   .burger-bg img{
+    display: none;
+   }
+    
+   .burgerbutton button {
+            height: 3.75em; /* 60px in em */
+            width: 9.375em; /* 150px in em */
+            font-size: 1.25em; /* 20px in em */
+            position: absolute;
+            top: -2em;
+            left: 20px;
+        }
+}
+
+
 
 
 /*Pizza*/
