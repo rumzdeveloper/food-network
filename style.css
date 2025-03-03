@@ -528,7 +528,7 @@ position: relative;
 
     .special-loaded-fries > img,
     .epic-shakes > img{
-        width: 50%;
+        width: 40%;
         position: relative; /* Keep this for your layout */
         left: 0; /* Reset left to 0 */
     }
@@ -577,7 +577,7 @@ position: relative;
 
     .special-loaded-fries > img,
     .epic-shakes > img{
-        width: 50%;
+        width: 40%;
         position: relative; /* Keep this for your layout */
         left: 0; /* Reset left to 0 */
     }
@@ -862,21 +862,19 @@ position: relative;
        .burger-bg img{
            display: none;
        }
-
+    
        .burgerbutton {
         display: flex; /* Use flexbox for alignment */
         justify-content: center; /* Center the button horizontally */
         margin-top: 20px; /* Add some space above the button */
-    }
-    
-       .burgerbutton button {
-               height: 3.75em; /* 60px in em */
-               width: 9.375em; /* 150px in em */
-               font-size: 1.25em; /* 20px in em */
-               position: relative;
-               top: -1em;
-               right: 50%;
-           }
+        height: 3.75em; /* 60px in em */
+        width: 9.375em; /* 150px in em */
+        font-size: 1.25em; /* 20px in em */
+        position: relative;
+        top: 1em;
+        right: 0%;
+        left: 30%;
+        }
 }
 
 @media (max-width: 480px) {
@@ -937,15 +935,19 @@ position: relative;
    .burger-bg img{
     display: none;
    }
-    
-   .burgerbutton button {
-            height: 3.75em; /* 60px in em */
-            width: 9.375em; /* 150px in em */
-            font-size: 1.25em; /* 20px in em */
-            position: absolute;
-            top: -2em;
-            left: 20px;
-        }
+
+   .burgerbutton{
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 20px; /* Add some space above the button */
+    height: 3.75em; /* 60px in em */
+    width: 9.375em; /* 150px in em */
+    font-size: 1.25em; /* 20px in em */
+    position: relative;
+    top: 2em;
+    right: 0%;
+    left: 8%;
+    }
 }
 
 
