@@ -865,17 +865,24 @@ position: relative;
            display: none;
        }
     
-       .burgerbutton {
+       .burgerbutton button{
         display: flex; /* Use flexbox for alignment */
         justify-content: center; /* Center the button horizontally */
         margin-top: 20px; /* Add some space above the button */
-        height: 3.75em; /* 60px in em */
+        height: 3.5em; /* 60px in em */
         width: 9.375em; /* 150px in em */
-        font-size: 1.25em; /* 20px in em */
+        font-size: 2em; /* 20px in em */
+        padding-top: 3%;
         position: relative;
-        top: 1em;
+        top: 0.1em;
         right: 0%;
         left: 30%;
+
+        margin-bottom: 10%;
+        }
+
+        .burgerbutton a{
+            text-decoration: none;
         }
 }
 
@@ -933,25 +940,30 @@ position: relative;
      /*justify-content: center; /* Center the image horizontally */
      /*align-items: center; Center the image vertically 
     }
-    THIS was needed to position img in paretn container*/
+    THIS was needed to position img in parent container*/
 
    .burger-bg img{
     display: none;
    }
 
-   .burgerbutton{
+   .burgerbutton button{
     display: flex; /* Use flexbox for alignment */
     justify-content: center; /* Center the button horizontally */
-    margin-top: 20px; /* Add some space above the button */
-    height: 3.75em; /* 60px in em */
-    width: 9.375em; /* 150px in em */
-    font-size: 1.25em; /* 20px in em */
+    margin-top: 10%; /* Add some space above the button */
+    height: 2.35em;
+    width: 11em; 
+    font-size: 1.15em;
     position: relative;
-    top: 2em;
     right: 0%;
     left: 8%;
 
+    padding-top: 2%;
+
     margin-bottom: -10%;
+    }
+
+    .burgerbutton a{
+        text-decoration: none;
     }
 }
 
@@ -1048,6 +1060,9 @@ position: relative;
 }
 
 .pizza-bg{
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevents bottom space in some browsers */
     position: relative;
 
     bottom: 630px;
@@ -1149,17 +1164,21 @@ position: relative;
            display: none;
        }
     
-       .pizzabutton {
+       .pizzabutton button{
         display: flex; /* Use flexbox for alignment */
         justify-content: center; /* Center the button horizontally */
         margin-top: 20px; /* Add some space above the button */
-        height: 3.75em; /* 60px in em */
+        height: 3.5em; /* 60px in em */
         width: 9.375em; /* 150px in em */
-        font-size: 1.25; /* 20px in em */
+        font-size: 2em; /* 20px in em */
+        padding-top: 3%;
         position: relative;
-        top: -11em;
         right: 0%;
         left: 30%;
+        }
+
+        .pizzabutton a{
+            text-decoration: none;
         }
 }
 
@@ -1213,20 +1232,32 @@ position: relative;
     }
 
    .pizza-bg img{
-    display: none;
+      display: none;
    }
 
    .pizzabutton{
-    display: flex; /* Use flexbox for alignment */
-    justify-content: center; /* Center the button horizontally */
-    margin-top: 20px; /* Add some space above the button */
-    height: 3.75em; /* 60px in em */
-    width: 9.375em; /* 150px in em */
-    font-size: 1.25em; /* 20px in em */
-    position: relative;
-    top: -11em;
-    right: 0%;
-    left: 5%;
+      display: flex; /* Use flexbox for alignment */
+      justify-content: center; /* Center the button horizontally */
+      position: relative;
+    }
+
+    .pizzabutton button{
+        display: flex; /* Use flexbox for alignment */
+        justify-content: center; /* Center the button horizontally */
+        margin-top: 10%; /* Add some space above the button */
+        height: 2.35em;
+        width: 11em; 
+        font-size: 1.15em;
+        padding-top: 2%;
+        position: relative;
+        top: -20em;
+        right: 0%;
+        left: 8%;
+    }
+
+    
+    .pizzabutton a{
+        text-decoration: none;
     }
 }
 
@@ -1455,23 +1486,6 @@ position: relative;
 /*TABLET 7*/
 /*TABLET 7*/
 @media (max-width: 768px) {
-    .burger-bg img{
-        width: 350px;
-        height: 350px; /* Adjust max width for tablets */
-        margin: 10px auto;/* Adjust margin for tablets */
-
-        position: relative;
-        left: 40px;
-    }
-
-    .burgerbutton button {
-        height: 80px; /* Adjust button height for tablets */
-        font-size: 24px; /* Adjust font size for tablets */
-
-     
-        left: 50px;
-        bottom: 50px;
-    }
   
     .pizza-bg{
         width: 350px;
@@ -1482,17 +1496,7 @@ position: relative;
         left: 10px;
         bottom: 100px;
     }
-    
-    .pizzabutton button{
-        height: 80px; /* Adjust button height for tablets */
-        font-size: 24px; /* Adjust font size for tablets */
-
-        position: relative;
-        left: 70px;
-        bottom: 140px;
-    
-    }
-
+   
     .desdrink-bg{
   display: none;
        
@@ -1508,48 +1512,6 @@ position: relative;
     
     }
    
-}
-
-/*PHONE*/
-@media (max-width: 480px) {
-    .burger-bg img{
-        width: 350px;
-        height: 350px; /* Adjust max width for tablets */
-        margin: 10px auto;/* Adjust margin for tablets */
-        
-        position: relative;
-        left: 40px;
-        margin: 5px auto; /* Adjust margin for mobile */
-    }
-
-    .burgerbutton button {
-        height: 60px; /* Adjust button height for mobile */
-        font-size: 20px; /* Adjust font size for mobile */
-        position: relative;
-        left: 55px;
-        bottom: 120px;
-    }
-
-    
-    .pizza-bg img{
-        width: 300px;
-        height: 300px; /* Adjust max width for tablets */
-        margin: 10px aut0;/* Adjust margin for tablets */
-
-        position: relative;
-        left: 10px;
-        bottom: 100px;
-    }
-    
-    .pizzabutton button{
-        height: 80px; /* Adjust button height for tablets */
-        font-size: 24px; /* Adjust font size for tablets */
-
-        position: relative;
-        left: 70px;
-        bottom: 140px;
-    
-    }
 }
 
 
