@@ -949,17 +949,17 @@ position: relative;
    .burgerbutton button{
     display: flex; /* Use flexbox for alignment */
     justify-content: center; /* Center the button horizontally */
-    margin-top: 10%; /* Add some space above the button */
+    margin-top: -5%; /* Add some space above the button */
     height: 2.35em;
     width: 11em; 
     font-size: 1.15em;
+    padding-bottom: 1.5em;
     position: relative;
     right: 0%;
     left: 8%;
 
-    padding-top: 2%;
 
-    margin-bottom: -10%;
+    /*margin-bottom: 10%;*/
     }
 
     .burgerbutton a{
