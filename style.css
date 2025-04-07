@@ -1279,51 +1279,6 @@ position: relative;
         box-shadow: 0 1px 1px 0 rgb(174, 70, 14), 0 2px 3px 0 rgb(255, 98, 0);
 }
 
-.brownie-dessert h2 {
-    font-size: 40px;
-    padding: 10px;
-    padding-bottom: 20px;
-}
-
- 
-.brownie-dessert img{
-    position: relative;
-    bottom: 20px;
-
-    transform: rotate(-8deg);
-    padding: 5px;
-}
-
-.brownie-dessert p{
-    color: rgb(118, 48, 2);
-
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-
-    padding: 5px;
-
-    position: relative;
-    bottom: 30px;
-    left: 10px;
-
-}
-
-.brownie-dessert h3{
-    text-align: end;
-    font-size: 40px;
-
-    position: relative;
-    bottom: 55px;
-    right: 105px;
-}
-
-.brownie-dessert h4{
-    text-align:end;
-
-    position: relative;
-    right: 190px;
-    bottom: 20px;
-}
 
 /*ice creams*/
 .icecream-background{
@@ -1379,6 +1334,73 @@ position: relative;
 }
 
 .ice-cream-cone h4{
+    text-align:end;
+
+    position: relative;
+    right: 190px;
+    bottom: 20px;
+}
+
+@media (max-width: 768px){
+    
+  
+}
+
+@media (max-width: 480px) {
+    .display-flex2 > div {
+        width: 100%; /* Full width for mobile */
+        margin: 10px 0; /* Adjust margin for mobile */
+    }
+
+
+    .display-flex2 > div {
+        width: 80%; /* Adjust width for smaller screens */
+        margin-bottom: 10%; /* Adjust margin */ 
+        margin-top: 6%;
+      }
+
+}
+
+
+.brownie-dessert h2 {
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+ 
+.brownie-dessert img{
+    position: relative;
+    bottom: 20px;
+
+    transform: rotate(-8deg);
+    padding: 5px;
+}
+
+.brownie-dessert p{
+    color: rgb(118, 48, 2);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+    padding: 5px;
+
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+
+}
+
+.brownie-dessert h3{
+    text-align: end;
+    font-size: 40px;
+
+    position: relative;
+    bottom: 55px;
+    right: 105px;
+}
+
+.brownie-dessert h4{
     text-align:end;
 
     position: relative;
