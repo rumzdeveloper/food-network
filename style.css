@@ -1279,6 +1279,16 @@ position: relative;
         box-shadow: 0 1px 1px 0 rgb(174, 70, 14), 0 2px 3px 0 rgb(255, 98, 0);
 }
 
+.display-flex3{
+    display: flex;
+}
+
+.display-flex3 > div{
+    width: 30%;
+    margin:20px;
+
+}
+
 
 /*ice creams*/
 .icecream-background{
@@ -1340,27 +1350,6 @@ position: relative;
     right: 190px;
     bottom: 20px;
 }
-
-@media (max-width: 768px){
-    
-  
-}
-
-@media (max-width: 480px) {
-    .display-flex2 > div {
-        width: 100%; /* Full width for mobile */
-        margin: 10px 0; /* Adjust margin for mobile */
-    }
-
-
-    .display-flex2 > div {
-        width: 80%; /* Adjust width for smaller screens */
-        margin-bottom: 10%; /* Adjust margin */ 
-        margin-top: 6%;
-      }
-
-}
-
 
 .brownie-dessert h2 {
     font-size: 40px;
@@ -1505,10 +1494,34 @@ position: relative;
     cursor: pointer;
 }
 
-/*TABLET 7*/
+@media (max-width: 768px){
+    
+  
+}
+
+@media (max-width: 480px) {
+    .display-flex3 > div {
+        width: 100%; /* Full width for mobile */
+        margin: 10px 0; /* Adjust margin for mobile */
+    }
+
+    
+.display-flex3{
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+}
+    .display-flex3 > div {
+        width: 80%; /* Adjust width for smaller screens */
+        margin-bottom: 10%; /* Adjust margin */ 
+        margin-top: 6%;
+      }
+
+}
+/*when i removed this, the whole section went off balance*/
 /*TABLET 7*/
 @media (max-width: 768px) {
   
+    /*especially this button*/
     .pizza-bg{
         width: 350px;
         height: 350px; /* Adjust max width for tablets */
@@ -1535,6 +1548,7 @@ position: relative;
     }
    
 }
+
 
 
 
