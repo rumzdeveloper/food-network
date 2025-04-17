@@ -1173,6 +1173,7 @@ position: relative;
         font-size: 2em; /* 20px in em */
         padding-top: 3%;
         position: relative;
+        top: -0.7em;
         right: 0%;
         left: 30%;
         }
@@ -1180,6 +1181,17 @@ position: relative;
         .pizzabutton a{
             text-decoration: none;
         }
+
+        .pizza-bg{
+            display: none; /*adding this helped remove extra spacing*/
+            /*width: 350px;
+            height: 350px;
+            margin: 10px auto;*/
+            /*position: relative;
+            left: 10px;
+            bottom: 100px;*/
+        }
+       
 }
 
 @media (max-width: 480px) {
@@ -1245,20 +1257,36 @@ position: relative;
         display: flex; /* Use flexbox for alignment */
         justify-content: center; /* Center the button horizontally */
         margin-top: 10%; /* Add some space above the button */
-        height: 2.35em;
+        height: 3em;
         width: 11em; 
         font-size: 1.15em;
-        padding-top: 2%;
+        padding-top: 4%;
         position: relative;
-        top: -20em;
+        top: -1em;
         right: 0%;
-        left: 8%;
+        left: 0%;
+
+        
     }
 
     
     .pizzabutton a{
         text-decoration: none;
     }
+
+    /*if i remove the following code, the entire alingment of everything goes off
+    but removing the positioning from here helped code above
+    this was: Adjust margin for tablets */
+    .pizza-bg{
+        display: none; /*adding this helped remove extra spacing*/
+        /*width: 350px;
+        height: 350px;
+        margin: 10px auto;*/
+        /*position: relative;
+        left: 10px;
+        bottom: 100px;*/
+    }
+   
 }
 
 
@@ -1495,7 +1523,21 @@ position: relative;
 }
 
 @media (max-width: 768px){
-    
+    .display-flex3 > div {
+        width: 45%; /* Adjust width for tablets */
+
+    }
+
+    .display-flex3 {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+     }
+
+    .display-flex3 > div {
+        width: 70%; /* Make boxes wider on smaller screens */
+        margin: 20px 0; /* Adjust margin */
+    }
+
   
 }
 
@@ -1517,20 +1559,10 @@ position: relative;
       }
 
 }
-/*when i removed this, the whole section went off balance*/
-/*TABLET 7*/
+
+
 @media (max-width: 768px) {
   
-    /*especially this button*/
-    .pizza-bg{
-        width: 350px;
-        height: 350px; /* Adjust max width for tablets */
-        margin: 10px auto;/* Adjust margin for tablets */
-
-        position: relative;
-        left: 10px;
-        bottom: 100px;
-    }
    
     .desdrink-bg{
   display: none;
@@ -1538,8 +1570,6 @@ position: relative;
     }
     
     .desdrinkbutton button{
-        height: 80px; /* Adjust button height for tablets */
-        font-size: 24px; /* Adjust font size for tablets */
 
         position: relative;
         left: 50px;
