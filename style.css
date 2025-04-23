@@ -1538,48 +1538,119 @@ position: relative;
         margin: 20px 0; /* Adjust margin */
     }
 
+    .ice-cream-cone > img{
+        width: 70%;
+        padding: 1em;
+        
+    }
+
+    .brownie-dessert > img{
+        width: 85%;
+        padding: 1em;
+        
+    }
+
+    .cold-drinks-can-bottle > img{
+        width: 70%;
+        padding: 1em;
+        
+    }
+
+    .icecream-background .ice-cream-cone > h2,
+    .dessert-background .brownie-dessert > h2,
+    .colddrink-background .cold-drinks-can-bottle > h2{
+        font-size: 2em;
+    }
   
+  
+    .desdrink-bg{
+        display: none;
+    }
+
+    .desdrinkbutton button{
+        position: relative;
+        left: 50px;
+        bottom: 20px;
+    }
+
 }
 
 @media (max-width: 480px) {
     .display-flex3 > div {
-        width: 100%; /* Full width for mobile */
+        width: 5%; /* Full width for mobile */
         margin: 10px 0; /* Adjust margin for mobile */
     }
 
     
-.display-flex3{
+    .display-flex3{
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items */
 }
+
     .display-flex3 > div {
         width: 80%; /* Adjust width for smaller screens */
         margin-bottom: 10%; /* Adjust margin */ 
         margin-top: 6%;
-      }
-
-}
-
-
-@media (max-width: 768px) {
-  
-   
-    .desdrink-bg{
-  display: none;
-       
     }
+
+    
+    .ice-cream-cone > img{
+        width: 70%;
+        padding: 1em;
+        
+    }
+
+    .brownie-dessert > img{
+        width: 85%;
+        padding: 1em;
+        
+    }
+
+    .cold-drinks-can-bottle > img{
+        width: 70%;
+        padding: 1em;
+        
+    }
+
+    .icecream-background .ice-cream-cone > h2,
+    .dessert-background .brownie-dessert > h2,
+    .colddrink-background .cold-drinks-can-bottle > h2{
+        font-size: 1.6em;
+    }
+
+    .icecream-background .ice-cream-cone > p,
+    .dessert-background .brownie-dessert > p,
+    .colddrink-background .cold-drinks-can-bottle > p {
+        font-size: 1em;
+    }
+  
+    .icecream-background .ice-cream-cone > h3,
+    .dessert-background .brownie-dessert > h3,
+    .colddrink-background .cold-drinks-can-bottle > h3{
+        font-size: 1.5em; /* Further reduce font size for prices */
+        position: relative;
+        right: 3.5em;
+    }
+
+    .icecream-background .ice-cream-cone > h4,
+    .dessert-background .brownie-dessert > h4,
+    .colddrink-background .cold-drinks-can-bottle > h4{
+        font-size: 1.3em;
+    }
+
+
+    .desdrink-bg{
+      display: none;
+    }
+
     
     .desdrinkbutton button{
-
         position: relative;
         left: 50px;
         bottom: 20px;
-    
     }
-   
+
 }
-
-
 
 
 /*Book your party*/
