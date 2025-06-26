@@ -1295,17 +1295,7 @@ position: relative;
  
 /*drinks and desserts*/
 
-.dessert-background{
-        background-color: rgb(255, 255, 255);
-        
-        border-radius: 7px;
-    
-        width: 350px;
-        height: 470px;
-        display: inline-block;
-    
-        box-shadow: 0 1px 1px 0 rgb(174, 70, 14), 0 2px 3px 0 rgb(255, 98, 0);
-}
+
 
 .display-flex3{
     display: flex;
@@ -1324,8 +1314,8 @@ position: relative;
     
     border-radius: 7px;
 
-    width: 350px;
-    height: 590px;
+    width: 100%;
+    height: 95%;
     display: inline-block;
 
     box-shadow: 0 1px 1px 0 rgb(174, 70, 14), 0 2px 3px 0 rgb(255, 98, 0);
@@ -1379,6 +1369,18 @@ position: relative;
     bottom: 20px;
 }
 
+.dessert-background{
+        background-color: rgb(255, 255, 255);
+        
+        border-radius: 7px;
+    
+        width: 100%;
+        height: 75%;
+        display: inline-block;
+    
+        box-shadow: 0 1px 1px 0 rgb(174, 70, 14), 0 2px 3px 0 rgb(255, 98, 0);
+}
+
 .brownie-dessert h2 {
     font-size: 40px;
     padding: 10px;
@@ -1400,7 +1402,7 @@ position: relative;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 
-    padding: 5px;
+    padding: 10px;
 
     position: relative;
     bottom: 30px;
@@ -1431,8 +1433,8 @@ position: relative;
     
     border-radius: 7px;
 
-    width: 350px;
-    height: 440px;
+    width: 100%;
+    height: 70%;
     display: inline-block;
 
     box-shadow: 0 1px 1px 0 rgb(174, 70, 14), 0 2px 3px 0 rgb(255, 98, 0);
@@ -1522,134 +1524,152 @@ position: relative;
     cursor: pointer;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .display-flex3 > div {
         width: 45%; /* Adjust width for tablets */
-
+        margin: 10px 0; /* Adjust margin for tablets */
     }
 
     .display-flex3 {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items */
-     }
+    }
 
     .display-flex3 > div {
         width: 70%; /* Make boxes wider on smaller screens */
         margin: 20px 0; /* Adjust margin */
     }
 
-    .ice-cream-cone > img{
-        width: 70%;
-        padding: 1em;
-        
-    }
-
-    .brownie-dessert > img{
-        width: 85%;
-        padding: 1em;
-        
-    }
-
-    .cold-drinks-can-bottle > img{
-        width: 70%;
-        padding: 1em;
-        
+    .ice-cream-cone > img,
+    .brownie-dessert > img,
+    .cold-drinks-can-bottle > img {
+        padding: 5%; /* Adjust padding */
+        position: relative; /* Keep this for your layout */
+        left: 0; /* Reset left to 0 */
+        width: 70%; /* Allow images to scale down */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove bottom space caused by inline-block */
+        margin: 0 auto; /* Center the image */
     }
 
     .icecream-background .ice-cream-cone > h2,
     .dessert-background .brownie-dessert > h2,
-    .colddrink-background .cold-drinks-can-bottle > h2{
-        font-size: 2em;
-    }
-  
-  
-    .desdrink-bg{
-        display: none;
-    }
-
-    .desdrinkbutton button{
-        position: relative;
-        left: 50px;
-        bottom: 20px;
-    }
-
-}
-
-@media (max-width: 480px) {
-    .display-flex3 > div {
-        width: 5%; /* Full width for mobile */
-        margin: 10px 0; /* Adjust margin for mobile */
-    }
-
-    
-    .display-flex3{
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items */
-}
-
-    .display-flex3 > div {
-        width: 80%; /* Adjust width for smaller screens */
-        margin-bottom: 10%; /* Adjust margin */ 
-        margin-top: 6%;
-    }
-
-    
-    .ice-cream-cone > img{
-        width: 70%;
-        padding: 1em;
-        
-    }
-
-    .brownie-dessert > img{
-        width: 85%;
-        padding: 1em;
-        
-    }
-
-    .cold-drinks-can-bottle > img{
-        width: 70%;
-        padding: 1em;
-        
-    }
-
-    .icecream-background .ice-cream-cone > h2,
-    .dessert-background .brownie-dessert > h2,
-    .colddrink-background .cold-drinks-can-bottle > h2{
-        font-size: 1.6em;
+    .colddrink-background .cold-drinks-can-bottle > h2 {
+        font-size: 2em; /* Smaller font size for headings */
     }
 
     .icecream-background .ice-cream-cone > p,
     .dessert-background .brownie-dessert > p,
     .colddrink-background .cold-drinks-can-bottle > p {
-        font-size: 1em;
+        font-size: 1em; /* Smaller font size for paragraphs */
+        padding: 1em;
     }
-  
+
     .icecream-background .ice-cream-cone > h3,
     .dessert-background .brownie-dessert > h3,
-    .colddrink-background .cold-drinks-can-bottle > h3{
-        font-size: 1.5em; /* Further reduce font size for prices */
+    .colddrink-background .cold-drinks-can-bottle > h3 {
+        font-size: 2em; /* Smaller font size for prices */
         position: relative;
-        right: 3.5em;
+        right: 6em;
     }
 
     .icecream-background .ice-cream-cone > h4,
     .dessert-background .brownie-dessert > h4,
-    .colddrink-background .cold-drinks-can-bottle > h4{
-        font-size: 1.3em;
+    .colddrink-background .cold-drinks-can-bottle > h4 {
+        font-size: 1.5em; /* Smaller font size for "only" */
+        position: relative; /* Keep this for your layout */
+        right: 55%;
     }
 
-
-    .desdrink-bg{
-      display: none;
+    .desdrink-bg {
+        display: none; /* Hide unnecessary elements */
     }
 
-    
-    .desdrinkbutton button{
+    .desdrinkbutton {
+        display: flex; /* Use flexbox for alignment */
+        justify-content: center; /* Center the button horizontally */
+        margin-top: 20px; /* Add some space above the button */
+    }
+
+    .desdrinkbutton button {
+        height: 3.5em; /* Button height */
+        width: 9.375em; /* Button width */
+        font-size: 2em; /* Button font size */
+        padding-top: 3%;
         position: relative;
-        left: 50px;
-        bottom: 20px;
+        top: -0.7em;
+        left: 0; /* Center button */
+    }
+}
+
+@media (max-width: 480px) {
+    .display-flex3 > div {
+        width: 100%; /* Full width for mobile */
+        margin: 10px 0; /* Adjust margin for mobile */
     }
 
+    .display-flex3 > div {
+        width: 80%; /* Adjust width for smaller screens */
+        margin-bottom: 10% /* Adjust margin */
+        margin-top: 6%;
+    }
+
+    .brownie-dessert > img{
+        padding: 5%; /* Adjust padding */
+        position: relative; /* Keep this for your layout */
+        left: 0; /* Reset left to 0 */
+        width: 80%; /* Allow images to scale down */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove bottom space caused by inline-block */
+        margin: 0 auto; /* Center the image */
+    }
+
+    .icecream-background .ice-cream-cone > h2,
+    .dessert-background .brownie-dessert > h2,
+    .colddrink-background .cold-drinks-can-bottle > h2 {
+        font-size: 1.6em; /* Further reduce font size for headings */
+    }
+
+    .icecream-background .ice-cream-cone > p,
+    .dessert-background .brownie-dessert > p,
+    .colddrink-background .cold-drinks-can-bottle > p {
+        font-size: 1em; /* Further reduce font size for paragraphs */
+    }
+
+    .icecream-background .ice-cream-cone > h3,
+    .dessert-background .brownie-dessert > h3,
+    .colddrink-background .cold-drinks-can-bottle > h3 {
+        font-size: 1.5em; /* Further reduce font size for prices */
+        position: relative;
+        right: 3.5em;
+        bottom: 1.1em;
+    }
+
+    .icecream-background .ice-cream-cone > h4,
+    .dessert-background .brownie-dessert > h4,
+    .colddrink-background .cold-drinks-can-bottle > h4 {
+        font-size: 1.3em; /* Further reduce font size for "only" */
+    }
+
+    .desdrink-bg {
+        display: none; /* Hide unnecessary elements */
+    }
+
+    .desdrinkbutton {
+        display: flex; /* Use flexbox for alignment */
+        justify-content: center; /* Center the button horizontally */
+        position: relative;
+    }
+
+    .desdrinkbutton button {
+        height: 3em; /* Button height */
+        width: 11em; /* Button width */
+        font-size: 1.15em; /* Button font size */
+        padding-top: 4%;
+        position: relative;
+        top: -1em;
+        left: 0; /* Center button */
+    }
 }
 
 
