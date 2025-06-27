@@ -955,9 +955,8 @@ position: relative;
     font-size: 1.15em;
     padding-bottom: 1.5em;
     position: relative;
-    right: 0%;
-    left: 8%;
-
+    left: 4em;
+    
 
     /*margin-bottom: 10%;*/
     }
@@ -1610,7 +1609,7 @@ position: relative;
 
     .display-flex3 > div {
         width: 80%; /* Adjust width for smaller screens */
-        margin-bottom: 10% /* Adjust margin */
+        margin-bottom: 10%; /* Adjust margin */
         margin-top: 6%;
     }
 
@@ -1763,6 +1762,67 @@ position: relative;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .party-section {
+        padding: 20px; /* Reduce padding for tablets */
+        margin-bottom: 80px; /* Reduce bottom margin */
+    }
+
+    .party-container {
+        padding: 15px; /* Reduce padding in container */
+        max-width: 90%; /* Allow more width on smaller screens */
+        left: 0; /* Reset left positioning */
+    }
+
+    .party-container h2 {
+        font-size: 1.8em; /* Smaller heading size */
+    }
+
+    .party-container p {
+        font-size: 1.2em; /* Smaller paragraph size */
+    }
+
+    .book-btn {
+        font-size: 14px; /* Smaller button font size */
+        padding: 8px; /* Reduce button padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .party-section {
+        padding: 10px; /* Further reduce padding for mobile */
+        margin-bottom: 60px; /* Further reduce bottom margin */
+    }
+
+    .party-container {
+        padding: 10px; /* Further reduce padding in container */
+        max-width: 95%; /* Allow full width on mobile */
+    }
+
+    .party-container h2 {
+        font-size: 1.5em; /* Further reduce heading size */
+    }
+
+    .party-container p {
+        font-size: 1em; /* Further reduce paragraph size */
+    }
+
+    .book-btn {
+        font-size: 12px; /* Further reduce button font size */
+        padding: 6px; /* Further reduce button padding */
+    }
+
+    .party-form label {
+        font-size: 0.9em; /* Smaller label size */
+    }
+}
+    
+
+
+
 /*DELIVERY*/
 .delivery-options{
     background: #ffffff;
@@ -1782,6 +1842,10 @@ position: relative;
     top: 140px;
 
     margin-bottom: -250px;
+}
+
+.delivery-options h1{
+    font-size: 60px;
 }
 
 .delivery-options h2{
@@ -1889,101 +1953,103 @@ position: relative;
 
 
 
-/* Media Queries for Tablets and Phones 8 */
-/* For tablets (max-width: 900px) */
+/* Responsive Styles */
 @media (max-width: 768px) {
     .delivery-options {
-        margin-bottom: 50px; /* Reduce margin for tablets */
+        margin-bottom: 60px; /* Reduce bottom margin */
     }
 
-    .delivery-options img {
-        top: 80px; /* Adjust image position */
-        margin-bottom: -150px; /* Adjust margin */
+    .delivery-options h1{
+        font-size: 40px;
     }
 
     .delivery-options h2 {
-        font-size: 20px; /* Smaller font size for tablets */
-        bottom: 80px; /* Adjust position */
+        font-size: 36px; /* Smaller heading size */
+        bottom: 100px; /* Adjust position */
         left: 5px; /* Adjust position */
     }
 
     .delivery-options .speech-bubble-h2 {
         left: 20px; /* Adjust position */
-        bottom: 10px;
-        width: 50%; /* Make it responsive */
+        bottom: 100px; /* Adjust position */
+        width: 90%; /* Responsive width */
         height: auto; /* Allow height to adjust */
-        padding: 10px; /* Adjust padding */
     }
 
     .delivery-options p {
-        left: 20px; /* Adjust position */
-        bottom: 150px; /* Adjust position */
-        font-size: 20px; /* Smaller font size */
+        font-size: 20px; /* Smaller paragraph size */
+        bottom: 200px; /* Adjust position */
+        left: 10px; /* Adjust position */
     }
 
     .delivery-options .speech-bubble-left {
         left: 20px; /* Adjust position */
-        bottom: 10px;
-        width: 50%; /* Make it responsive */
+        bottom: 50px; /* Adjust position */
+        width: 90%; /* Responsive width */
         height: auto; /* Allow height to adjust */
     }
 
     .delivery-options .speech-bubble {
         left: 20px; /* Adjust position */
-        bottom: 10px;
-        width: 40%; /* Make it responsive */
+        bottom: 50px; /* Adjust position */
+        width: 90%; /* Responsive width */
+        height: auto; /* Allow height to adjust */
     }
 }
 
-/* For phones (max-width: 600px) */
 @media (max-width: 480px) {
     .delivery-options {
-        margin-bottom: 30px; /* Further reduce margin for phones */
+        margin-bottom: 40px; /* Further reduce bottom margin */
     }
 
-    .delivery-options img {
-    
-        top: 50px; /* Further adjust image position */
-        margin-bottom: -100px; /* Further adjust margin */
+    .delivery-options img{
+        display: none;
     }
 
-    .delivery-options #delguy{
-       display: none;
+    .delivery-options h1{
+        font-size: 40px;
     }
 
     .delivery-options h2 {
-        font-size: 30px; /* Smaller font size for phones */
-        bottom: 50px; /* Adjust position */
-        left: 0; /* Center it */
+        font-size: 20px; /* Further reduce heading size */
+        bottom: 80px; /* Adjust position */
     }
 
     .delivery-options .speech-bubble-h2 {
         left: 10px; /* Adjust position */
-        width: 95%; /* Make it responsive */
-        height: auto; /* Allow height to adjust */
-        padding: 8px; /* Adjust padding */
+        bottom: -5px; /* Adjust position */
+        width: 95%; /* Responsive width */
     }
 
+   .delivery-options .speech-bubble-h2::after {
+    display: none;
+   }
+
     .delivery-options p {
-        left: 10px; /* Adjust position */
-        bottom: 100px; /* Adjust position */
-        font-size: 18px; /* Smaller font size */
+        font-size: 17px; /* Further reduce paragraph size */
+        bottom: 150px; /* Adjust position */
     }
 
     .delivery-options .speech-bubble-left {
-        left: 10px; /* Adjust position */
-        width: 95%; /* Make it responsive */
-        height: auto; /* Allow height to adjust */
+        /*left: 10px;  Adjust position */
+        bottom: -5px; /* Adjust position */
+        width: 95%; /* Responsive width */
+    }
+
+    .delivery-options h4{
+        font-size: 20px;
     }
 
     .delivery-options .speech-bubble {
-        left: 10px; /* Adjust position */
-        width: 95%; /* Make it responsive */
+        /*left: 10px;  Adjust position */
+        bottom: -14px; /* Adjust position */
+        width: 95%; /* Responsive width */
     }
 }
 
 
-
+/*WE EDITED THE DELIVERY SECTION
+OURSELVES, COP IT TO THE TABLET*/
 
 
 /*Reviews*/
