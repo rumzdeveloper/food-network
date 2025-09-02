@@ -504,7 +504,7 @@ position: relative;
     bottom: 8px;
   } 
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .display-flex1 {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items */
@@ -542,7 +542,7 @@ position: relative;
     .lays-burger > p,
     .special-loaded-fries > p,
     .epic-shakes > p {
-        font-size: 1em; /* Smaller font size for paragraphs */
+        font-size: 1.5em; /* Smaller font size for paragraphs */
         padding: 1em;
     }
 
@@ -550,16 +550,13 @@ position: relative;
     .special-loaded-fries > h3,
     .epic-shakes > h3 {
         font-size: 2em; /* Smaller font size for prices */
+        position: relative;
+        right: 6em;
     }
 
-    .lays-burger > h4,
-    .special-loaded-fries > h4,
-    .epic-shakes > h4 {
-        font-size: 1.5em; /* Smaller font size for "only" */
-        position: relative; /* Keep this for your layout */
-        right: 60%;
-    }
+    
 }
+
 
 @media (max-width: 480px){
     .display-flex1 > div {
@@ -598,15 +595,14 @@ position: relative;
     .special-loaded-fries > h3,
     .epic-shakes > h3 {
         font-size: 1.5em; /* Further reduce font size for prices */
+        position: relative;
+        right: 80px;
     }
 
-    .lays-burger > h4,
-    .special-loaded-fries > h4,
-    .epic-shakes > h4 {
-        font-size: 1.3em; /* Further reduce font size for "only" */
-    }
 }
 
+
+   
 
 
 /*Full menu Styling*/
@@ -1947,16 +1943,18 @@ position: relative;
     color: white;
     width: 600px;
     height: 50px;
-
-    
-  }
+}
 
 
 
 /* Responsive Styles */
-@media (max-width: 768px) {
-    .delivery-options {
-        margin-bottom: 60px; /* Reduce bottom margin */
+@media (max-width: 768px){
+ .delivery-options {
+        margin-bottom: 50px; /* Reduce bottom margin */
+    }
+
+    .delivery-options img{
+        display: none;
     }
 
     .delivery-options h1{
@@ -1997,7 +1995,7 @@ position: relative;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px){
     .delivery-options {
         margin-bottom: 40px; /* Further reduce bottom margin */
     }
@@ -2048,10 +2046,6 @@ position: relative;
 }
 
 
-/*WE EDITED THE DELIVERY SECTION
-OURSELVES, COP IT TO THE TABLET*/
-
-
 /*Reviews*/
 .display-grids-rev{
     display:grid;
@@ -2068,7 +2062,7 @@ OURSELVES, COP IT TO THE TABLET*/
 /*TABLET 9*/
 @media (max-width: 768px) {
     .display-grids-rev{ 
-        display: flex;
+    display: flex;
       flex-wrap: wrap; /* Allow items to wrap on smaller screens */
      justify-content: space-between; /* Space out items */
 }
@@ -2076,8 +2070,8 @@ OURSELVES, COP IT TO THE TABLET*/
     .display-grids-rev img{
         width: 80%;
         height: auto;
+        margin: auto;
     }
-
 }
 
 /*PHONE*/
@@ -2089,8 +2083,9 @@ OURSELVES, COP IT TO THE TABLET*/
 }
      
     .display-grids-rev img{
-        width: 80%;
+        width: 60%;
         height: auto;
+        margin: auto;
     }
 }
 
@@ -2196,6 +2191,10 @@ OURSELVES, COP IT TO THE TABLET*/
 @media only screen and (max-width: 768px) {
     .contact-info-footer {
       margin-left: -70px;
+    }
+
+    .contact-form > h5 {
+        font-size: 2em;
     }
 }
 
