@@ -70,6 +70,70 @@ h3, h4{
 
 }
 
+/* Tablets (max-width: 768px) */
+@media (min-width: 768px) {
+    h1, h2 {
+        font-size: 36px;
+    }
+    h3, h4 {
+        font-size: 24px;
+    }
+    .heading-bg8 {
+        padding: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .heading-bg8 > h2 {
+        font-size: 48px;
+    }
+
+     .heading-bg8 > p {
+        font-size: 28px;
+    }
+    .bg8 {
+        padding-top: 15px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+    .hdbg8 {
+        padding: 20px;
+        font-size: 40px;
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 28px;
+    }
+    h3, h4 {
+        font-size: 18px;
+    }
+    .heading-bg8 {
+        padding: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .heading-bg8 > h2 {
+        font-size: 32px;
+    }
+
+    .heading-bg8 > p {
+        font-size: 20px;
+    }
+    .bg8 {
+        padding-top: 10px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+    .hdbg8 {
+        padding: 15px;
+        font-size: 28px;
+    }
+}
+
 
 #order-button {
     display: block;
@@ -89,6 +153,23 @@ h3, h4{
 
 #order-button:hover {
     background-color: #e6c200; 
+}
+
+/* Tablets (max-width: 768px) */
+@media (min-width: 768px) {
+    #order-button {
+        font-size: 20px;
+        padding: 8px;
+        margin-top: 16px;
+    }
+}
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    #order-button {
+        font-size: 18px;
+        padding: 6px;
+        margin-top: 12px;
+    }
 }
 
 /*BURGER MENU*/
@@ -242,6 +323,53 @@ right: 0px;
 #burger6 > h3{
     color: black;
 }
+
+/* Tablets (max-width: 768px) */
+@media (min-width: 768px) {
+    .display-flex11 {
+        gap: 20px;
+        padding-top: 15px;
+        padding-bottom: 8px;
+    }
+    .display-flex11 > div img {
+        width: 220px; /* smaller fixed width */
+    }
+
+     #burger1, #burger2, #burger3, #burger4, #burger5, #burger6 {
+        font-size: 16px;
+        padding: 6px;
+        top: 0 !important; /* reset vertical offsets */
+        left: 0 !important; /* reset horizontal offsets */
+        margin-right: 15px;
+    }
+    #burger5 > img {
+        transform: rotate(3deg);
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .display-flex11 {
+        gap: 15px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .display-flex11 > div img {
+        width: 150px; /* smaller fixed width */
+    }
+
+     #burger1, #burger2, #burger3, #burger4, #burger5, #burger6 {
+        font-size: 14px;
+        padding: 5px;
+        top: 0 !important; /* reset vertical offsets */
+        left: 0 !important; /* reset horizontal offsets */
+        margin-right: 10px;
+    }
+    #burger5 > img {
+        transform: rotate(2deg);
+    }
+}
+
 
 
 /*Pizza Menu*/
