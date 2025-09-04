@@ -601,6 +601,44 @@ right: 0px;
     color: #000000;
 }
 
+/* Tablets (max-width: 768px) */
+@media (min-width: 768px) {
+    .display-flex22 {
+        gap: 20px;
+        padding-top: 15px;
+        padding-bottom: 8px;
+    }
+    .display-flex22 > div img {
+        width: 220px; /* smaller fixed width */
+    }
+    #marg-pizza, #mush-pizza, #beeef-pizza, #pepp-pizza, #veg-pizza, #pizza-rolls {
+        font-size: 16px;
+        padding: 6px;
+        top: 0 !important; /* reset vertical offsets */
+        left: 0 !important; /* reset horizontal offsets */
+        margin-right: 15px;
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .display-flex22 {
+        gap: 15px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .display-flex22 > div img {
+        width: 150px; /* smaller fixed width */
+    }
+    #marg-pizza, #mush-pizza, #beeef-pizza, #pepp-pizza, #veg-pizza, #pizza-rolls {
+        font-size: 14px;
+        padding: 5px;
+        top: 0 !important; /* reset vertical offsets */
+        left: 0 !important; /* reset horizontal offsets */
+        margin-right: 10px;
+    }
+}
+
 /*SIDE KICKS*/
 .display-flex55 {
     display: flex; 
@@ -781,6 +819,51 @@ right: 0px;
     color: #ffffff;
 }
 
+/* Tablets (max-width: 768px) */
+@media (min-width: 768px) {
+    .display-flex55 {
+        gap: 20px;
+        padding-top: 15px;
+        padding-bottom: 8px;
+    }
+    .display-flex55 > div img {
+        width: 220px; /* smaller fixed width */
+    }
+
+     #tacoss, #hotdogz, #wrapchic, #cheesefryzz, #nachozz, #mozstick {
+        font-size: 16px;
+        padding: 6px;
+        top: 0 !important; /* reset vertical offsets */
+        left: 0 !important; /* reset horizontal offsets */
+        margin-right: 15px;
+    }
+    #mozstick {
+        padding: 10px;
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .display-flex55 {
+        gap: 15px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .display-flex55 > div img {
+        width: 150px; /* smaller fixed width */
+    }
+    #tacoss, #hotdogz, #wrapchic, #cheesefryzz, #nachozz, #mozstick {
+        font-size: 14px;
+        padding: 5px;
+        top: 0 !important; /* reset vertical offsets */
+        left: 0 !important; /* reset horizontal offsets */
+        margin-right: 10px;
+    }
+
+     #mozstick {
+        padding: 8px;
+    }
+}
 
 /*Drinks Menu*/
 
@@ -1001,6 +1084,69 @@ right: 0px;
     color: #ffffff;
 }
 
+/* Tablets (max-width: 768px) */
+@media (min-width: 768px) {
+    .display-flex33 {
+        gap: 20px;
+        padding-top: 15px;
+        padding-bottom: 8px;
+    }
+    .display-flex33 > div img {
+        width: 220px; /* smaller fixed width */
+    }
+    #fruit-juices, #mocktails, #colddrinks, #teacoffee, #milkshakemad, #slushie {
+        font-size: 16px;
+        padding: 6px 8px;
+        top: 0 !important; /* reset vertical offsets */
+        left: 0 !important; /* reset horizontal offsets */
+        margin-right: 15px;
+    }
+
+    /* Reset list item left offsets */
+    #fruit-juices li,
+    #mocktails li,
+    #colddrinks li,
+    #teacoffee li,
+    #milkshakemad li {
+        left: 10px !important;
+        font-size: 16px;
+    }
+    #teacoffee > img {
+        transform: none;
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .display-flex33 {
+        gap: 15px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .display-flex33 > div img {
+        width: 150px; /* smaller fixed width */
+    }
+    #fruit-juices, #mocktails, #colddrinks, #teacoffee, #milkshakemad, #slushie {
+        font-size: 14px;
+        padding: 5px 6px;
+        top: 0 !important; /* reset vertical offsets */
+        left: 0 !important; /* reset horizontal offsets */
+        margin-right: 10px;
+    }
+
+    /* Reset list item left offsets */
+    #fruit-juices li,
+    #mocktails li,
+    #colddrinks li,
+    #teacoffee li,
+    #milkshakemad li {
+        left: 5px !important;
+        font-size: 14px;
+    }
+    #teacoffee > img {
+        transform: none;
+    }
+}
 
 /*DESSERTS*/
 
@@ -1223,6 +1369,45 @@ right: 0px;
     color: #ffffff;
 }
 
+/* Tablets (max-width: 768px) */
+@media (min-width: 768px) {
+    .display-flex44 {
+        gap: 20px;
+        padding-top: 15px;
+        padding-bottom: 8px;
+    }
+    .display-flex44 > div img {
+        width: 220px; /* smaller fixed width */
+    }
+    #sundaedes, #oreodes, #rolledicecream, #minidons, #icesandwich, #churrosdes {
+        font-size: 16px;
+        padding: 6px 10px;
+        top: 0 !important; /* reset vertical offsets */
+        left: 0 !important; /* reset horizontal offsets */
+        margin-right: 15px;
+    
+    }
+}
+
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .display-flex44 {
+        gap: 15px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .display-flex44 > div img {
+        width: 150px; /* smaller fixed width */
+    }
+    #sundaedes, #oreodes, #rolledicecream, #minidons, #icesandwich, #churrosdes {
+        font-size: 14px;
+        padding: 5px 8px;
+        top: 0 !important; /* reset vertical offsets */
+        left: 0 !important; /* reset horizontal offsets */
+        margin-right: 10px;
+    }
+}
 
 /*Order form*/
 .order-section {
@@ -1288,5 +1473,50 @@ right: 0px;
     background-color: #ff5151;
 }
 
+/* Tablets (max-width: 768px) */
+@media (min-width: 768px) {
+    .form-container {
+        flex-direction: column; /* Stack columns vertically */
+        font-size: 16px;
+    }
 
+    .left-column,
+    .right-column {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
 
+    .order-section button {
+        width: 100%; /* Full width */
+        font-size: 22px;
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .form-container {
+        display: flex;
+        flex-direction: column; /* Stack columns vertically */
+        font-size: 14px;
+    }
+    .left-column,
+    .right-column {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .order-section input,
+    .order-section select,
+    .order-section textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .order-section button {
+        width: 100%; /* Full width */
+        font-size: 18px;
+        height: 45px;
+        padding: 8px;
+    }
+}
